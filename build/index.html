@@ -11,7 +11,7 @@
   <body>
     <section class="hero">
       <div class="hero__wrapper">
-        <header class="header">
+        <header class="header hero__header-block">
           <a class="header__logo">
             <svg  width="120" height="23">
               <use xlink:href="img/sprite.svg#logotype"></use>
@@ -29,7 +29,12 @@
           <h1 class="hero__header">Фитнес центр</h1>
           <a class="hero__buy">Купить абонемент</a>
         </div>
-        <img>
+        <picture class="hero__img">
+          <source type="image/webp"  media="(max-width: 1199px)" srcset="img/jpg/hero-tablet.webp, img/jpg/hero-tablet@2x.webp 2x">
+          <source type="image/webp" srcset="img/jpg/hero.webp, img/jpg/hero@2x.webp 2x">
+          <source media="(max-width: 1199px)" srcset="img/jpg/hero-tablet.jpg, img/jpg/hero-tablet@2x.jpg 2x">
+          <img class="hero__img" src="img/jpg/hero.jpg" srcset="img/jpg/hero@2x.jpg 2x" alt="Мужчина в костюмен супермена на черном фоне">
+        </picture>
       </div>
     </section>
     <main>
