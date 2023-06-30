@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__tel {
+  color: $color-default-white;
+  font-size: 26px;
+  font-family: $ff-alumni;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}

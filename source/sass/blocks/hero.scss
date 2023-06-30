@@ -1,0 +1,46 @@
+.hero {
+background: $dark-cerulean-to-venetian-red;
+background-color: $color-default-black;
+}
+
+.hero__wrapper {
+  @include wrapper;
+
+  padding-top: 30px;
+}
+
+.hero__text-container {
+  margin-top: 100px;
+}
+
+
+.hero__advantages-list {
+  list-style: none;
+}
+
+.hero__advantages-item {
+  color: $color-default-white;
+  font-size: 14px;
+  font-family: $ff-roboto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero__city {
+  color: $color-default-white;
+  font-size: 48px;
+  font-family: $ff-alumni;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+}
+
+.hero__header {
+  color: $color-default-white;
+  font-size: 92px;
+  font-family: $ff-alumni;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 4.6px;
+}

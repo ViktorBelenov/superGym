@@ -1199,6 +1199,70 @@ button,
   color: #15ab07;
 }
 
+.hero {
+  background: conic-gradient(from 151deg at 16.03% 39.06%, #003D85 32.2363382578deg, #B80027 313.3060026169deg);
+  background-color: #000000;
+}
+
+.hero__wrapper {
+  width: 83.34%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.hero__text-container {
+  margin-top: 100px;
+}
+
+.hero__advantages-list {
+  list-style: none;
+}
+
+.hero__advantages-item {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero__city {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: "Alumni Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+}
+
+.hero__header {
+  color: #ffffff;
+  font-size: 92px;
+  font-family: "Alumni Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 4.6px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__tel {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: "Alumni Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
 /* @mixin hover-focus {
     @media (hover: hover) {
       &:hover:not(.focus-visible) {

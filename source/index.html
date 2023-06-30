@@ -5,59 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Описание проекта">
-    <title>ProjectName</title>
+    <title>Super Gym</title>
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <div class="container"></div>
-      </header>
-      <main>
-        <section class="intro">
-          <div class="container">
-            <h1>Тестовая страница.</h1>
-            <p>На данной странице показан пример модальных окон.</p>
-            <p>Перед началом разработки не забудьте удалить всё содержимое &#8249;main&#8250;&#8249;&#8260;main&#8250;.</p>
-            <p><a class="btn" href="#" data-open-modal="feedback">modal--feedback link</a></p>
-            <p><a class="btn" href="#" data-open-modal="success">modal--success link</a></p>
+    <section class="hero">
+      <div class="hero__wrapper">
+        <header class="header">
+          <a class="header__logo">
+            <svg  width="120" height="23">
+              <use xlink:href="img/sprite.svg#logotype"></use>
+            </svg>
+            </a>
+          <a class="header__tel" href="tel:+88005555555">8-800-555-55-55</a>
+        </header>
+        <div class="hero__text-container">
+          <ul class="hero__advantages-list">
+            <li class="hero__advantages-item">Тренажёрный зал</li>
+            <li class="hero__advantages-item">Групповые занятия</li>
+            <li class="hero__advantages-item">Кардио-зона</li>
+          </ul>
+          <span class="hero__city">Омск</span>
+          <h1 class="hero__header">Фитнес центр</h1>
+          <a class="hero__buy">Купить абонемент</a>
+        </div>
+        <img>
+      </div>
+    </section>
+    <main>
+      <section class="gym">
+        <div class="gym__wrapper">
+          <div class="gym__text-container">
+            <h2>Тренажерный зал</h2>
+            <span>Просторный зал площадью 900 кв/м</span>
+            <p>Supergym – самый большой фитнес центр за Уралом и идеальное место для укрепления тела и здоровья. Тренажерный зал оснащен всем необходимым современным оборудованием для всех спортсменов.
+              В зале расположены отдельная зона для Crossfit и кардио-зона с 40 тренажерами. Также в фитнес центре есть несколько оборудованных залов для различных видов групповых занятий. </p>
           </div>
-        </section>
-      </main>
-      <footer>
-        <div class="container"></div>
-      </footer>
-    </div>
-
-    <!-- Модалки -->
-    <div class="modal modal--preload" data-modal="feedback">
-      <div class="modal__wrapper">
-        <div class="modal__overlay" data-close-modal></div>
-        <div class="modal__content">
-          <p class="modal__description">Обычная модалка</p>
-          <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап" data-close-modal>
-            <svg width="15" height="15">
-              <use xlink:href="img/sprite.svg#icon-close"></use>
-            </svg>
-          </button>
+          <img>
+          <div class="gym__video-container">
+          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="modal modal--preload modal--fit-content modal--no-scale" data-modal="success">
-      <div class="modal__wrapper">
-        <div class="modal__overlay" data-close-modal></div>
-        <div class="modal__content">
-          <p class="modal__description">Размер этой модалки зависит от ширины контента,<br> отключена анимация-скейл</p>
-          <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап" data-close-modal>
-            <svg width="15" height="15">
-              <use xlink:href="img/sprite.svg#icon-close"></use>
-            </svg>
-          </button>
+      </section>
+      <section class="membership">
+        <!-- tabs -->
+      </section>
+      <section class="super-games">
+        <div class="super-games__wrapper">
+          <div class="super-games__text-container"></div>
+          <img>
         </div>
-      </div>
-    </div>
+      </section>
+      <section class="coaches">
+        <!-- swiper -->
+      </section>
+      <section class="advantages">
+        <div class="advantages__wrapper">
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+      </section>
 
+      <section class="promo">
+        <div class="promo__wrapper">
+
+        </div>
+      </section>
+
+      <section class="fag">
+        <!-- tabs -->
+      </section>
+
+      <section clas="feedback">
+        <!-- swiper -->
+      </section>
+
+      <section class="from-and-contact">
+
+      </section>
+
+    </main>
+    <footer>
+
+    </footer>
     <script src="js/vendor.min.js"></script>
     <script src="js/main.min.js"></script>
   </body>

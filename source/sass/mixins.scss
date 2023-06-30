@@ -74,6 +74,15 @@
   }
 }
 
+// wrapper
+
+@mixin wrapper {
+  width:83.34%;
+  margin: 0 auto;
+  @media (max-width: ($vp-1200 - 1px)) {
+  }
+}
+
 // Mobile first
 
 // @mixin vp-375 {
