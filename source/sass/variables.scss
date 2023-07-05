@@ -11,18 +11,18 @@ $color-transparent:                 rgba(255, 255, 255, 0);
 // для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
 
 $sapphire:                   #102654;
-$egyptian-blue:                   #103AAE;
-$ghost-white:                   #F8F9FC;
-$torch-red:                   #ED0233;
-$black-russian:                   #030A1A;
-$torch-second-red:                   #FF121F;
+$egyptian-blue:                   #103aae;
+$ghost-white:                   #f8f9fc;
+$torch-red:                   #ed0233;
+$black-russian:                   #030a1a;
+$torch-second-red:                   #ff121f;
 // Gradient
 
 $black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
 
-$crimson-to-cobalt:                    linear-gradient(129deg, #D10A42 0%, #0041CA 100%);
-$torch-red-to-cobalt:                    linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
-$dark-cerulean-to-venetian-red:                    conic-gradient(from 151deg at 16.03% 39.06%, #003D85 32.23633825778961deg, #B80027 313.3060026168823deg);
+$crimson-to-cobalt:                    linear-gradient(129deg, #d10a42 0%, #0041ca 100%);
+$torch-red-to-cobalt:                    linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
+$dark-cerulean-to-venetian-red:                    conic-gradient(from 151deg at 16.03% 39.06%, #003d85 32.24deg, #d80027 313.31deg);
 // Typography
 // ---------------------------------
 

@@ -77,9 +77,16 @@
 // wrapper
 
 @mixin wrapper {
-  width:85.02%;
+  box-sizing: border-box;
+  width: 85.02%;
   margin: 0 auto;
+
   @media (max-width: ($vp-1200 - 1px)) {
+    width: 88.29%;
+  }
+
+  @media (max-width: ($vp-768 - 1px)) {
+    width: 90.63%;
   }
 }
 
