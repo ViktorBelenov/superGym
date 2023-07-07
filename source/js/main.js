@@ -2,6 +2,38 @@ import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
 import {Form} from './modules/form-validate/form';
 
+
+// const playButton = document.querySelector('.video__play-button');
+// const player = document.querySelector('.video__screen');
+
+// let playVideo = () => {
+//   player.play();
+// };
+
+// playButton.addEventListener('click', playVideo);
+
+
+// let player;
+// let playButton = document.getElementById("playButton");
+
+// function onYouTubeIframeAPIReady() {
+//   player = new YT.Player('player', {
+//     height: '228',
+//     width: '364',
+//     videoId: '9TZXsZItgdw',
+//     events: {
+//       onReady: onPlayerReady,
+//     },
+//   });
+// }
+
+// function onPlayerReady(event) {
+//   playButton.addEventListener('click', function () {
+//     player.playVideo();
+//   });
+// }
+
+
 // ---------------------------------
 
 window.addEventListener('DOMContentLoaded', () => {
