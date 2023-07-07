@@ -1,0 +1,11 @@
+.social {
+  display: flex;
+}
+
+.social__link {
+  margin-left: 11px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}

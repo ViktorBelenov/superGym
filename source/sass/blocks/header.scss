@@ -21,18 +21,6 @@
     font-size: 20px;
     letter-spacing: 0.4px;
 
-    margin-right: 20px;
-  }
-}
 
-.header__img {
-  @media (max-width: ($vp-1200 - 1px)) {
-    width: 82px;
-    height: 17px;
-  }
-
-  @media (max-width: ($vp-768 - 1px)) {
-    width: 69px;
-    height: 24px;
   }
 }

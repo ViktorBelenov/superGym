@@ -41,6 +41,8 @@
   grid-template-columns: 135px 1fr;
   grid-template-rows: min-content min-content min-content;
 
+  position: relative;
+
   @media (max-width: ($vp-768 - 1px)) {
     grid-template-columns: 115px 1fr;
   }
@@ -93,8 +95,6 @@
     font-size: 28px;
     letter-spacing: 0.84px;
 
-    position: relative;
-    right: 20px;
   }
 }
 
@@ -106,9 +106,10 @@
   font-size: 92px;
   font-family: $ff-alumni;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: 4.6px;
+  -webkit-text-stroke: 1px $color-default-white;
 
   text-transform: uppercase;
 
@@ -126,7 +127,7 @@
   }
 
   @media (max-width: ($vp-768 - 1px)) {
-    position: relative;
+    position: absolute;
     right: 20px;
   }
 }

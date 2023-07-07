@@ -12,11 +12,11 @@
     <section class="hero">
       <div class="hero__wrapper">
         <header class="header hero__header-block">
-          <a class="header__logo">
-            <svg class="header__img"  width="120" height="23">
+          <a class="logo">
+            <svg class="logo__img"  width="120" height="23">
               <use xlink:href="img/sprite.svg#logotype"></use>
             </svg>
-            </a>
+          </a>
           <a class="header__tel" href="tel:+88005555555">8-800-555-55-55</a>
         </header>
         <div class="hero__text-container">
@@ -41,13 +41,28 @@
       <section class="gym">
         <div class="gym__wrapper">
           <div class="gym__text-container">
-            <h2>Тренажерный зал</h2>
-            <span>Просторный зал площадью 900 кв/м</span>
-            <p>Supergym – самый большой фитнес центр за Уралом и идеальное место для укрепления тела и здоровья. Тренажерный зал оснащен всем необходимым современным оборудованием для всех спортсменов.
+            <h2 class="gym__title">Тренажерный зал</h2>
+            <span class="gym__lead">Просторный зал площадью 900 кв/м</span>
+            <p class="gym__description">Supergym – самый большой фитнес центр за Уралом и идеальное место для укрепления тела и здоровья. Тренажерный зал оснащен всем необходимым современным оборудованием для всех спортсменов.
               В зале расположены отдельная зона для Crossfit и кардио-зона с 40 тренажерами. Также в фитнес центре есть несколько оборудованных залов для различных видов групповых занятий. </p>
           </div>
-          <img>
-          <div class="gym__video-container">
+          <picture class="gym__img">
+            <source type="image/webp"  media="(max-width: 767px)" srcset="img/jpg/gym-mobile.webp, img/jpg/gym-mobile@2x.webp 2x">
+            <source type="image/webp"  media="(max-width: 1199px)" srcset="img/jpg/gym-tablet.webp, img/jpg/gym-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/jpg/gym-desktop.webp, img/jpg/gym-desktop@2x.webp 2x">
+            <source media="(max-width: 767px)" srcset="img/jpg/gym-mobile.jpg, img/jpg/gym-mobile@2x.jpg 2x">
+            <source media="(max-width: 1199px)" srcset="img/jpg/gym-tablet.jpg, img/jpg/gym-tablet@2x.jpg 2x">
+            <img class="gym__img" src="img/jpg/gym-desktop.jpg" srcset="img/jpg/gym-desktop@2x.jpg 2x" alt="Зал с тренажорами" width= "660" height= "400">
+          </picture>
+          <div class="gym__video-container video">
+            <video class="video__screen" width="364" height="228"  poster="img/jpg/video-background-desktop.jpg" >
+              <source src="https://www.youtube.com/watch?v=9TZXsZItgdw" type="video/mp4">
+            </video>
+            <button class="video__play-button">
+              <svg   width="17" height="17">
+                <use xlink:href="img/sprite.svg#button-play"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </section>
@@ -90,7 +105,50 @@
       </section>
 
     </main>
-    <footer>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <ul class="footer__nav-list">
+          <li class="footer__list-item">
+          <a class="footer__logo logo">
+            <svg class="logo__img"  width="120" height="23">
+              <use xlink:href="img/sprite.svg#logotype"></use>
+            </svg>
+          </a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-item-link">Услуги</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-item-link">Абонементы</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-item-link">Акции</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-item-link">Тренеры</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-item-link">Расписание</a>
+          </li>
+        </ul>
+        <div class="footer__social social">
+          <a class="social__link">
+            <svg   width="25" height="25">
+              <use xlink:href="img/sprite.svg#vk"></use>
+            </svg>
+          </a>
+          <a class="social__link">
+            <svg   width="25" height="25">
+              <use xlink:href="img/sprite.svg#ok"></use>
+            </svg>
+          </a>
+          <a class="social__link">
+            <svg   width="25" height="25">
+              <use xlink:href="img/sprite.svg#reddit"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
 
     </footer>
     <script src="js/vendor.min.js"></script>
