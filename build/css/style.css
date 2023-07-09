@@ -574,6 +574,153 @@ button,
   }
 }
 
+[data-tabs=parent] {
+  overflow: hidden;
+}
+[data-tabs=parent].no-transition > [data-tabs=control],
+[data-tabs=parent].no-transition > [data-tabs=content],
+[data-tabs=parent].no-transition > [data-tabs=element] {
+  -webkit-transition: none;
+  transition: none;
+}
+[data-tabs=parent].no-transition-global [data-tabs=control],
+[data-tabs=parent].no-transition-global [data-tabs=content],
+[data-tabs=parent].no-transition-global [data-tabs=element] {
+  -webkit-transition: none;
+  transition: none;
+}
+
+[data-tabs=parent] [data-tabs=content] {
+  position: relative;
+}
+
+[data-tabs=element] {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in, visibility 0.3s ease-in;
+  transition: opacity 0.3s ease-in, visibility 0.3s ease-in;
+}
+
+[data-tabs=element].for-load {
+  position: static;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: none;
+  transition: none;
+}
+
+[data-tabs=element].is-active {
+  z-index: 1;
+  visibility: visible;
+  opacity: 1;
+}
+
+.tabs {
+  max-width: 100%;
+}
+
+.tabs__controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 24.96%;
+  margin: 0 auto 60px auto;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  .tabs__controls {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.tabs__controls::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -20px;
+  background-color: #e4e4e4;
+}
+
+.tabs__control {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #102654;
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  cursor: pointer;
+  opacity: 0.5;
+  min-width: auto;
+}
+@media screen and (max-width: 1023px) {
+  .tabs__control {
+    margin: 0 10px;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tabs__control {
+    margin: 10px 2% 0;
+    padding: 10px;
+    width: 45%;
+  }
+}
+.tabs__control.is-active {
+  opacity: 1;
+  pointer-events: none;
+  position: relative;
+}
+.tabs__control.is-active::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  background-color: red;
+  z-index: 10;
+}
+
+.tabs__content {
+  margin-bottom: 40px;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+.tabs__element {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .tabs__element {
+    padding: 15px;
+  }
+}
+.tabs__element p {
+  margin: 0;
+}
+.tabs__element p:not(:last-child) {
+  margin: 0 0 20px 0;
+}
+
+.tabs--unset .tabs__content {
+  height: 100px;
+}
+
+.tabs--unset .tabs__element {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 .modal {
   position: fixed;
   top: 0;
@@ -1770,6 +1917,138 @@ button,
 
 .membership {
   background-color: #f8f9fc;
+  padding: 120px 0;
+}
+
+.membership__wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 85.02%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  .membership__wrapper {
+    width: 88.29%;
+  }
+}
+@media (max-width: 767px) {
+  .membership__wrapper {
+    width: 90.63%;
+  }
+}
+
+.membership__title {
+  color: #102654;
+  font-size: 54px;
+  font-family: "Alumni Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.62px;
+  margin: 0 0 25px 0;
+}
+
+.membership__card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: -webkit-min-content;
+  -ms-grid-rows: min-content;
+  grid-template-rows: -webkit-min-content;
+  grid-template-rows: min-content;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+}
+
+.membership__card-item {
+  background-color: #ffffff;
+  padding: 68px 77px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 7px solid #ffffff;
+}
+.membership__card-item:hover {
+  -o-border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+     border-image: -webkit-gradient(linear, left top, left bottom, from(#f6b73c), to(#4d9f0c)) 30;
+     border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+}
+
+.membership__card-title {
+  color: #102654;
+  text-align: center;
+  font-size: 26px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110.156%;
+}
+
+.membership__card-offer {
+  color: #495a7d;
+  font-size: 16px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.membership__card-price {
+  color: #103aae;
+  font-size: 60px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 60px;
+}
+.membership__card-price::after {
+  content: attr(data-price);
+  color: #e4e4e4;
+  font-size: 100px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  opacity: 0.4799999893;
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  z-index: -1;
+}
+
+.membership__card-price-rub {
+  font-family: "Rouble", "Arial", sans-serif;
+  color: #102654;
+}
+
+.membership__buy-button {
+  color: #102654;
+  font-size: 12px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0;
+  outline: 2px solid #102654;
+  background-color: inherit;
+  padding: 28px 44px;
 }
 
 /* @mixin hover-focus {

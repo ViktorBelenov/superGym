@@ -1,3 +1,119 @@
 .membership {
   background-color: $ghost-white;
+  padding: 120px 0;
+}
+
+.membership__wrapper {
+  @include wrapper;
+
+  text-align: center;
+}
+
+.membership__title {
+  color: $sapphire;
+  font-size: 54px;
+  font-family: $ff-alumni;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.62px;
+
+  margin: 0 0 25px 0;
+}
+
+.membership__card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+}
+
+.membership__card-item {
+  background-color: $color-default-white;
+  padding: 68px 77px;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 7px solid $color-default-white;
+
+  &:hover {
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+  }
+  // Посмотри как пишутся состояния, через инклюд?
+}
+
+.membership__card-title {
+  color: $sapphire;
+  text-align: center;
+  font-size: 26px;
+  font-family: $ff-roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110.156%;
+}
+
+.membership__card-offer {
+  color: $chambray;
+  font-size: 16px;
+  font-family:  $ff-roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.membership__card-price {
+  color: $egyptian-blue;
+  font-size: 60px;
+  font-family:  $ff-roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  position: relative;
+  z-index: 2;
+
+  &::after {
+  content: attr(data-price);
+  color: $whisper;
+  font-size: 100px;
+  font-family:  $ff-roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  opacity: 0.47999998927116394;
+
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  z-index: -1;
+  }
+
+  margin-bottom: 60px;
+}
+
+.membership__card-price-rub {
+  font-family: $ff-rouble;
+  color: $sapphire;
+}
+
+.membership__buy-button {
+  color: $sapphire;
+  font-size: 12px;
+  font-family: $ff-roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: 0;
+
+  outline: 2px solid $sapphire;
+
+  background-color: inherit;
+
+  padding: 28px 44px;
 }
