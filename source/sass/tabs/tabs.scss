@@ -22,6 +22,14 @@
     bottom: -20px;
     background-color: $whisper;
   }
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    width: 65.2%;
+  }
+
+  @media (max-width: ($vp-768 - 1px)) {
+    width: 100%;
+  }
 }
 
 .tabs__control {
@@ -43,19 +51,6 @@
 
   min-width: auto;
 
-
-
-  @media screen and (max-width: 1023px) {
-    margin: 0 10px;
-    padding: 15px;
-  }
-
-  @media screen and (max-width: 767px) {
-    margin: 10px 2% 0;
-    padding: 10px;
-    width: 45%;
-  }
-
   &.is-active {
     opacity: 1;
     pointer-events: none;
@@ -72,6 +67,10 @@
       z-index: 10;
     }
   }
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    font-size: 18px;
+  }
 }
 
 .tabs__content {
@@ -83,34 +82,8 @@
 .tabs__element {
   width: 100%;
 
-  @media screen and (max-width: 767px) {
-    padding: 15px;
-  }
-
-  p {
-    margin: 0;
-
-    &:not(:last-child) {
-      margin: 0 0 20px 0;
-    }
-  }
-
-  // &:nth-child(1) {
-  //   background-color: rgb(250, 235, 215);
-  // }
-
-  // &:nth-child(2) {
-  //   background-color: rgb(229, 250, 215);
-  // }
-
-  // &:nth-child(3) {
-  //   background-color: rgb(180, 188, 233);
-  // }
-
-  // &:nth-child(4) {
-  //   background-color: rgb(255, 187, 204);
-  // }
 }
+
 
 .tabs--unset .tabs__content {
   height: 100px;

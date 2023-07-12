@@ -3,6 +3,8 @@ import {initModals} from './modules/modals/init-modals';
 import {Form} from './modules/form-validate/form';
 import {initTabs} from './init-tabs';
 
+import {initCoachesSwiper} from './init-swiper';
+
 // window.addEventListener('DOMContentLoaded', () => {
 //   window.addEventListener('load', () => {
 //     initTabs();
@@ -50,6 +52,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   iosVhFix();
   initTabs();
+  initCoachesSwiper();
 
   // Modules
   // ---------------------------------

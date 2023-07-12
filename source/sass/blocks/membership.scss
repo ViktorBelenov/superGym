@@ -1,6 +1,33 @@
 .membership {
+
+  position: relative;
+
   background-color: $ghost-white;
   padding: 120px 0;
+
+  @media (max-width:($vp-1200 - 1px)) {
+    padding: 100px 0;
+  }
+
+  @media (max-width:($vp-768 - 1px)) {
+    padding: 70px 0;
+  }
+
+  &::after {
+    content: "";
+    background-image: url('../img/png/plate.png');
+    width: 289px;
+    height: 345px;
+
+    position: absolute;
+
+    right: 0;
+    bottom: 0;
+
+    @media (max-width:($vp-768 - 1px)) {
+      display: none;
+    }
+  }
 }
 
 .membership__wrapper {
@@ -19,6 +46,17 @@
   letter-spacing: 1.62px;
 
   margin: 0 0 25px 0;
+
+  @media (max-width:($vp-1200 - 1px)) {
+    font-size: 42px;
+    letter-spacing: 1.26px;
+  }
+  @media (max-width:($vp-768 - 1px)) {
+    font-size: 32px;
+    letter-spacing: 0.96px;
+
+    margin: 0 0 35px 0;
+  }
 }
 
 .membership__card-list {
@@ -28,12 +66,21 @@
   display: grid;
   grid-template-rows: min-content;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 40px;
+  column-gap: 2%;
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    grid-template-columns: 65.2%;
+    justify-content: center;
+  }
+
+  @media (max-width: ($vp-768 - 1px)) {
+    grid-template-columns: 100%;
+  }
 }
 
 .membership__card-item {
   background-color: $color-default-white;
-  padding: 68px 77px;
+  padding: 68px 70px;
 
   display: flex;
   flex-direction: column;
@@ -41,9 +88,17 @@
   border: 7px solid $color-default-white;
 
   &:hover {
-    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+
+    border-image: linear-gradient(129deg, #d10a42 0%, #0041ca 100%) 30;
   }
-  // Посмотри как пишутся состояния, через инклюд?
+
+  @media (max-width: 1250px) {
+    padding: 68px 70px;
+  }
+
+  @media (max-width: ($vp-768 - 1px)) {
+    padding: 55px 35px;
+  }
 }
 
 .membership__card-title {
@@ -53,7 +108,11 @@
   font-family: $ff-roboto;
   font-style: normal;
   font-weight: 700;
-  line-height: 110.156%;
+  line-height: 110.16%;
+
+  @media (max-width: ($vp-768 - 1px)) {
+    font-size: 22px;
+  }
 }
 
 .membership__card-offer {
@@ -75,6 +134,10 @@
   position: relative;
   z-index: 2;
 
+  @media (max-width: ($vp-768 - 1px)) {
+    font-size: 48px;
+  }
+
   &::after {
   content: attr(data-price);
   color: $whisper;
@@ -89,6 +152,14 @@
   bottom: 0;
   left: -10px;
   z-index: -1;
+
+  @media (max-width: ($vp-1200 - 1px)) {
+      left: 30px;
+    }
+
+    @media (max-width: ($vp-768 - 1px)) {
+      left: 10px;
+    }
   }
 
   margin-bottom: 60px;
@@ -116,4 +187,9 @@
   background-color: inherit;
 
   padding: 28px 44px;
+
+  &:hover {
+    background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
+    outline: 0px;
+  }
 }

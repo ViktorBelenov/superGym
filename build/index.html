@@ -79,10 +79,48 @@
               </div>
               <div class="tabs__content" data-tabs="content">
                 <div class="tabs__element" data-tabs="element">
-                    <p>wgwgwegdddddaA</p>
+                  <ul class="membership__card-list">
+                    <li class="membership__card-item">
+                      <h3 class="membership__card-title">С тренером</h3>
+                      <span class="membership__card-offer">12 занятий</span>
+                      <span class="membership__card-price" data-price="5000">5000 <span class="membership__card-price-rub">₽</span></span>
+                      <a class="membership__buy-button">купить абонемент</a>
+                    </li>
+                    <li class="membership__card-item">
+                      <h3 class="membership__card-title">Дневной</h3>
+                      <span class="membership__card-offer">с 8:00 до 17:00</span>
+                      <span class="membership__card-price" data-price="1700">1700 <span class="membership__card-price-rub">₽</span></span>
+                      <a class="membership__buy-button">купить абонемент</a>
+                    </li>
+                    <li class="membership__card-item">
+                      <h3 class="membership__card-title">Полный день</h3>
+                      <span class="membership__card-offer">с 8:00 до 22:00</span>
+                      <span class="membership__card-price" data-price="2700">2700 <span class="membership__card-price-rub">₽</span></span>
+                      <a class="membership__buy-button">купить абонемент</a>
+                    </li>
+                  </ul>
                 </div>
                 <div class="tabs__element" data-tabs="element">
-                    <p> wegwegweg</p>
+                  <ul class="membership__card-list">
+                    <li class="membership__card-item">
+                      <h3 class="membership__card-title">С тренером</h3>
+                      <span class="membership__card-offer">12 занятий</span>
+                      <span class="membership__card-price" data-price="5000">5000 <span class="membership__card-price-rub">₽</span></span>
+                      <a class="membership__buy-button">купить абонемент</a>
+                    </li>
+                    <li class="membership__card-item">
+                      <h3 class="membership__card-title">Дневной</h3>
+                      <span class="membership__card-offer">с 8:00 до 17:00</span>
+                      <span class="membership__card-price" data-price="1700">1700 <span class="membership__card-price-rub">₽</span></span>
+                      <a class="membership__buy-button">купить абонемент</a>
+                    </li>
+                    <li class="membership__card-item">
+                      <h3 class="membership__card-title">Полный день</h3>
+                      <span class="membership__card-offer">с 8:00 до 22:00</span>
+                      <span class="membership__card-price" data-price="2700">2700 <span class="membership__card-price-rub">₽</span></span>
+                      <a class="membership__buy-button">купить абонемент</a>
+                    </li>
+                  </ul>
                 </div>
                 <div class="tabs__element" data-tabs="element">
                   <ul class="membership__card-list">
@@ -114,17 +152,247 @@
       </section>
       <section class="super-games">
         <div class="super-games__wrapper">
-          <div class="super-games__text-container"></div>
-          <img>
+          <div class="super-games__text-container">
+            <h2 class="super-games__title">SUPER GAMES</h2>
+            <p class="super-games__description">Ежегодные соревнования по CrossFit</p>
+            <div class="super-games__date">Дата
+              <div class="super-games__actual-date">
+                <span class="super-games__actual-date-date">7</span>
+                <span class="super-games__actual-date-mounth">Марта</span>
+                <span class="super-games__actual-date-year">2019</span>
+              </div>
+            </div>
+            <div class="super-games__time">Время
+              <div class="super-games__actual-time">
+                <span>12:00</span>
+              </div>
+            </div>
+
+            <a class="super-games__button">заполнить заявку</a>
+          </div>
+          <picture class="super-game__img">
+            <source type="image/webp"  media="(max-width: 767px)" srcset="img/jpg/super-games-mobile.webp, img/jpg/super-games-mobile@2x.webp 2x">
+            <source type="image/webp"  media="(max-width: 1199px)" srcset="img/jpg/super-games-tablet.webp, img/jpg/super-games-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/jpg/super-games-desktop.webp, img/jpg/super-games-desktop@2x.webp 2x">
+            <source media="(max-width: 767px)" srcset="img/jpg/super-games-mobile.jpg, img/jpg/super-games-mobile@2x.jpg 2x">
+            <source media="(max-width: 1199px)" srcset="img/jpg/super-games-tablet.jpg, img/jpg/super-games-tablet@2x.jpg 2x">
+            <img class="super-game__img" src="img/jpg/super-games-desktop.jpg" srcset="img/jpg/super-games-desktop@2x.jpg 2x" alt="Зал с тренажорами" width= "660" height= "500">
+          </picture>
         </div>
       </section>
+
       <section class="coaches">
-        <!-- swiper -->
+        <div class="swiper-button-prev coaches__slide-button"></div>
+        <div class="coaches__wrapper">
+          <h2 class="coaches__title">Тренеры</h2>
+          <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                  <!-- Slides -->
+                <div class="swiper-slide">
+
+                  <div class="slide">
+                    <picture class="slide__img">
+                      <source type="image/webp" srcset="img/jpg/coach-2.webp, img/jpg/coach-2@2x.webp 2x">
+                      <img class="slide__img" src="img/jpg/coach-2.jpg" srcset="img/jpg/coach-2@2x.jpg 2x" alt="Фото тренера">
+                    </picture>
+                    <span class="slide__img-name">Анна Павлова</span>
+                    <div class="slide__text-container">
+                      <h3 class="slide__header">Анна Павлова</h3>
+                      <span class="slide__skill">CrossFit</span>
+                      <ul class="slide__list-advantages">
+                        <li class="slide__list-advantages-item">Certified Level 3 Trainer</li>
+                        <li class="slide__list-advantages-item">Победитель чемпионата России по CrossFit </li>
+                        <li class="slide__list-advantages-item">Опыт — 6 лет</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <picture class="slide__img">
+                      <source type="image/webp" srcset="img/jpg/coach-4.webp, img/jpg/coach-4@2x.webp 2x">
+                      <img class="slide__img" src="img/jpg/coach.jpg" srcset="img/jpg/coach-4@2x.jpg 2x" alt="Фото тренера">
+                    </picture>
+                    <span class="slide__img-name">Алексей Лавров</span>
+                    <div class="slide__text-container">
+                      <h3 class="slide__header">Алексей Лавров</h3>
+                      <span class="slide__skill">CrossFit</span>
+                      <ul class="slide__list-advantages">
+                        <li class="slide__list-advantages-item">Certified Level 3 Trainer</li>
+                        <li class="slide__list-advantages-item">Победитель чемпионата России по CrossFit </li>
+                        <li class="slide__list-advantages-item">Опыт — 6 лет</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <picture class="slide__img">
+                      <source type="image/webp" srcset="img/jpg/coach-3.webp, img/jpg/coach-3@2x.webp 2x">
+                      <img class="slide__img" src="img/jpg/coach-3.jpg" srcset="img/jpg/coach-3@2x.jpg 2x" alt="Фото тренера">
+                    </picture>
+                    <span class="slide__img-name">Александр Пашков</span>
+                    <div class="slide__text-container">
+                      <h3 class="slide__header">Александр Пашков</h3>
+                      <span class="slide__skill">CrossFit</span>
+                      <ul class="slide__list-advantages">
+                        <li class="slide__list-advantages-item">Certified Level 3 Trainer</li>
+                        <li class="slide__list-advantages-item">Победитель чемпионата России по CrossFit </li>
+                        <li class="slide__list-advantages-item">Опыт — 6 лет</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <picture class="slide__img">
+                      <source type="image/webp" srcset="img/jpg/coach.webp, img/jpg/coach@2x.webp 2x">
+                      <img class="slide__img" src="img/jpg/coach.jpg" srcset="img/jpg/coach@2x.jpg 2x" alt="Фото тренера">
+                    </picture>
+                    <span class="slide__img-name">Мария Кетова</span>
+                    <div class="slide__text-container">
+                      <h3 class="slide__header">Мария Кетова</h3>
+                      <span class="slide__skill">CrossFit</span>
+                      <ul class="slide__list-advantages">
+                        <li class="slide__list-advantages-item">Certified Level 3 Trainer</li>
+                        <li class="slide__list-advantages-item">Победитель чемпионата России по CrossFit </li>
+                        <li class="slide__list-advantages-item">Опыт — 6 лет</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <picture class="slide__img">
+                      <source type="image/webp" srcset="img/jpg/coach.webp, img/jpg/coach@2x.webp 2x">
+                      <img class="slide__img" src="img/jpg/coach.jpg" srcset="img/jpg/coach@2x.jpg 2x" alt="Фото тренера">
+                    </picture>
+                    <span class="slide__img-name">Мария Кетова</span>
+                    <div class="slide__text-container">
+                      <h3 class="slide__header">Мария Кетова</h3>
+                      <span class="slide__skill">CrossFit</span>
+                      <ul class="slide__list-advantages">
+                        <li class="slide__list-advantages-item">Certified Level 3 Trainer</li>
+                        <li class="slide__list-advantages-item">Победитель чемпионата России по CrossFit </li>
+                        <li class="slide__list-advantages-item">Опыт — 6 лет</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <picture class="slide__img">
+                      <source type="image/webp" srcset="img/jpg/coach.webp, img/jpg/coach@2x.webp 2x">
+                      <img class="slide__img" src="img/jpg/coach.jpg" srcset="img/jpg/coach@2x.jpg 2x" alt="Фото тренера">
+                    </picture>
+                    <span class="slide__img-name">Мария Кетова</span>
+                    <div class="slide__text-container">
+                      <h3 class="slide__header">Мария Кетова</h3>
+                      <span class="slide__skill">CrossFit</span>
+                      <ul class="slide__list-advantages">
+                        <li class="slide__list-advantages-item">Certified Level 3 Trainer</li>
+                        <li class="slide__list-advantages-item">Победитель чемпионата России по CrossFit </li>
+                        <li class="slide__list-advantages-item">Опыт — 6 лет</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <picture class="slide__img">
+                      <source type="image/webp" srcset="img/jpg/coach.webp, img/jpg/coach@2x.webp 2x">
+                      <img class="slide__img" src="img/jpg/coach.jpg" srcset="img/jpg/coach@2x.jpg 2x" alt="Фото тренера">
+                    </picture>
+                    <span class="slide__img-name">Мария Кетова</span>
+                    <div class="slide__text-container">
+                      <h3 class="slide__header">Мария Кетова</h3>
+                      <span class="slide__skill">CrossFit</span>
+                      <ul class="slide__list-advantages">
+                        <li class="slide__list-advantages-item">Certified Level 3 Trainer</li>
+                        <li class="slide__list-advantages-item">Победитель чемпионата России по CrossFit </li>
+                        <li class="slide__list-advantages-item">Опыт — 6 лет</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <picture class="slide__img">
+                      <source type="image/webp" srcset="img/jpg/coach.webp, img/jpg/coach@2x.webp 2x">
+                      <img class="slide__img" src="img/jpg/coach.jpg" srcset="img/jpg/coach@2x.jpg 2x" alt="Фото тренера">
+                    </picture>
+                    <span class="slide__img-name">Мария Кетова</span>
+                    <div class="slide__text-container">
+                      <h3 class="slide__header">Мария Кетова</h3>
+                      <span class="slide__skill">CrossFit</span>
+                      <ul class="slide__list-advantages">
+                        <li class="slide__list-advantages-item">Certified Level 3 Trainer</li>
+                        <li class="slide__list-advantages-item">Победитель чемпионата России по CrossFit </li>
+                        <li class="slide__list-advantages-item">Опыт — 6 лет</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+        <div class="swiper-button-next coaches__slide-button coaches__slide-button--right"></div>
       </section>
       <section class="advantages">
         <div class="advantages__wrapper">
-          <ul>
-            <li></li>
+          <h2 class="advantages__title">Наши преимущества</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <span class="advantages__item-big-number">
+                900
+                <span class="advantages__item-big-number-description">кв/м</span>
+              </span>
+              <div class="advantages__item-text-container">
+                <h3 class="advantages__item-title">Площадь</h3>
+                <p class="advantages__item-description">Занимайтесь без очередей и толпучки</p>
+              </div>
+            </li>
+            <li class="advantages__item">
+              <span class="advantages__item-big-number">
+                70
+                <span class="advantages__item-big-number-description">машин</span>
+              </span>
+              <div class="advantages__item-text-container">
+                <h3 class="advantages__item-title">Собственная парковка</h3>
+                <p class="advantages__item-description">Вы всегда найдете место для своей машины на нашей парковке</p>
+              </div>
+            </li>
+            <li class="advantages__item-special">
+              <h3 class="advantages__item-title-special">
+                <span class="advantages__item-title-special-number ">100</span>
+                <span class="advantages__item-title-special-text">Тренажеров</span>
+              </h3>
+              <p class="advantages__item-description-special">Современные тренажеры на все группы мышц</p>
+            </li>
+            <li class="advantages__item">
+              <span class="advantages__item-big-number">
+                350
+                <span class="advantages__item-big-number-description">мест</span>
+              </span>
+              <div class="advantages__item-text-container">
+                <h3 class="advantages__item-title">Комфорт</h3>
+                <p class="advantages__item-description">Просторные раздевалки,
+                  душевые, фен, Wi-Fi, кулеры</p>
+              </div>
+            </li>
+            <li class="advantages__item">
+              <span class="advantages__item-big-number">
+                5+
+                <span class="advantages__item-big-number-description">лет</span>
+              </span>
+              <div class="advantages__item-text-container">
+                <h3 class="advantages__item-title">Тренерский опыт</h3>
+                <p class="advantages__item-description">Добивайтесь своих целей быстрее с профессиональным тренером</p>
+              </div>
+            </li>
           </ul>
         </div>
       </section>
