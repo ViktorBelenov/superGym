@@ -399,16 +399,197 @@
 
       <section class="promo">
         <div class="promo__wrapper">
-
+          <h2 class="promo__title">Акции</h2>
+          <div class="promo__content">
+            <div class="promo__year">
+              <div class="promo__year-text-container">
+                <h3 class="promo__year-text-conatainer-title">Год</h3>
+                <span class="promo__year-text-conatainer-price">4999</span>
+                <span class="promo__year-text-conatainer-describe">Безлимитный абонемент в тренажерный зал</span>
+                <a class="promo__about"> Подробнее</a>
+              </div>
+              <picture class="promo__year-img">
+                <source type="image/webp"  media="(max-width: 767px)" srcset="img/jpg/promo-mobile.webp, img/jpg/promo-mobile@2x.webp 2x">
+                <source type="image/webp"  media="(max-width: 1199px)" srcset="img/jpg/promo-tablet.webp, img/jpg/promo-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/jpg/promo-desktop.webp, img/jpg/promo-desktop@2x.webp 2x">
+                <source media="(max-width: 767px)" srcset="img/jpg/promo-mobile.jpg, img/jpg/promo-mobile@2x.jpg 2x">
+                <source media="(max-width: 1199px)" srcset="img/jpg/promo-tablet.jpg, img/jpg/promo-tablet@2x.jpg 2x">
+                <img class="promo__year-img" src="img/jpg/promo-desktop.jpg" srcset="img/jpg/promo-desktop@2x.jpg 2x" alt="Спортивная девушка" width= "280" height= "462">
+              </picture>
+            </div>
+            <div class="promo__second-offer promo__second-offer-first">
+              <h3 class="promo__second-offer-title">Месяц бесплатно</h3>
+              <span class="promo__second-offer-description">Приведи друга, получи абонемент в подарок</span>
+              <a class="promo__about promo__about--second">Подробнее</a>
+            </div>
+            <div class="promo__second-offer promo__second-offer-second">
+              <h3 class="promo__second-offer-title">Скидка 20%</h3>
+              <span class="promo__second-offer-description">Корпоративный фитнес  с командой</span>
+              <a class="promo__about promo__about--second">Подробнее</a>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="fag">
-        <!-- tabs -->
-      </section>
-
-      <section clas="feedback">
-        <!-- swiper -->
+        <div class="fag__wrapper">
+            <div class="fag__tabs no-transition-global" data-tabs="parent" data-delay="300">
+              <div class="fag__controls" data-tabs="controls">
+                <button class="fag__control" type="button" data-tabs="control">Центр</button>
+                <button class="fag__control  is-active" type="button" data-tabs="control">Абонимент</button>
+                <button class="fag__control" type="button" data-tabs="control">Услуги</button>
+                <button class="fag__control" type="button" data-tabs="control">Правила</button>
+              </div>
+              <div class="tabs__content" data-tabs="content">
+                <div class="tabs__element" data-tabs="element">
+                  <div class="accordion" data-accordion="parent" data-single="data-single">
+                    <div class="accordion__element is-active" data-accordion="element">
+                      <button class="accordion__button accordion__button--first" type="button" data-accordion="button">Как стать членом фитнес-центра?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">При первом посещении и покупке абонемента, необходимо заполнить анкету и подписать договор. При покупке абонемента онлайн, анкета также заполняется онлайн и договор придет вам на почту.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Где можно посмотреть расписание?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Есть кулеры в центре? Предоставляются полотенца?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Сколько тренеров работает в клубе и какова их квалификация?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__element" data-tabs="element">
+                  <div class="accordion" data-accordion="parent" data-single="data-single">
+                    <div class="accordion__element is-active" data-accordion="element">
+                      <button class="accordion__button accordion__button--first" type="button" data-accordion="button">Занятия с тренером входят в абонемент?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">При посещении тренажерного зала вам необходимо оплачить занятия с тренером отдельно. В зале всегда присутствует дежурный тренер, которому можно задать вопрос,  получить небольшую консультацию по тренажеру или технике выполнения упражнения.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Можно ли заморозить абонемент?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Есть ли лимит по посещениям тренажерного зала и групповых занятий?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Что такое семейный доступ и доступ для друзей?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__element" data-tabs="element">
+                  <div class="accordion" data-accordion="parent" data-single="data-single">
+                    <div class="accordion__element is-active" data-accordion="element">
+                      <button class="accordion__button accordion__button--first" type="button" data-accordion="button">Предлагает ли клуб услуги
+                        по консультированию
+                        по вопросам питания?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Да. Вы можете обратиться как к своему тренеру, так и к нашему нутрициологу. Специалист уточнит ваши данные, цели и предложит программу питания.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Проводятся ли в клубе какие-либо мероприятия или соревнования?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Можно ли приобрести в центре спортивное питание?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Есть ли в центре детская комната?</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__element" data-tabs="element">
+                  <div class="accordion" data-accordion="parent" data-single="data-single">
+                    <div class="accordion__element is-active" data-accordion="element">
+                      <button class="accordion__button accordion__button--first" type="button" data-accordion="button">Правила</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">При посещении тренажерного зала вам необходимо оплачить занятия с тренером отдельно. В зале всегда присутствует дежурный тренер, которому можно задать вопрос,  получить небольшую консультацию по тренажеру или технике выполнения упражнения.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Правила</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Правила</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion__element" data-accordion="element">
+                      <button class="accordion__button" type="button" data-accordion="button">Правила</button>
+                      <div class="accordion__content" data-accordion="content">
+                        <div class="accordion__wrapper">
+                          <p сlass="accordion__text">Нет</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+        </div>
       </section>
 
       <section class="from-and-contact">

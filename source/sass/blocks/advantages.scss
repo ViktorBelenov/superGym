@@ -23,6 +23,17 @@
   letter-spacing: 1.62px;
 
   text-align: center;
+
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    font-size: 42px;
+    letter-spacing: 1.26px;
+  }
+
+  @media (max-width : ($vp-768 - 1px)) {
+    font-size: 32px;
+    letter-spacing: 0.96px;
+  }
 }
 
 
@@ -66,6 +77,10 @@
 
   text-align: center;
 
+  @media (max-width: ($vp-1200 - 1px)) {
+    font-size: 58px;
+  }
+
   @media (max-width: ($vp-768 - 1px)) {
     margin-right: 0;
   }
@@ -95,6 +110,10 @@
   line-height: 150%;
 
   text-align: center;
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    font-size: 20px;
+  }
 }
 
 .advantages__item-description {
@@ -156,6 +175,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    font-size: 22px;
+  }
 }
 
 .advantages__item-description-special {
@@ -183,10 +206,18 @@
 
   &:nth-child(1) {
   border-bottom:  1px solid rgba(209, 10, 66, 0.2);
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    border-bottom: 0;
+  }
 }
 
   &:nth-child(2) {
     border-bottom:  1px solid rgba(209, 10, 66, 0.2);
+
+    @media (max-width: ($vp-1200 - 1px)) {
+      border-bottom: 0;
+    }
   }
 }
 
