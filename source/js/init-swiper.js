@@ -1,4 +1,5 @@
 const coaches = document.querySelector('.coaches');
+const feedback = document.querySelector('.feedback');
 
 const initCoachesSwiper = () => {
 
@@ -44,4 +45,28 @@ const initCoachesSwiper = () => {
 
 };
 
-export {initCoachesSwiper};
+
+const initFeedbackSwiper = () => {
+
+  const feedbackSwiperContainer = feedback.querySelector('.swiper');
+  const nextButton = feedback.querySelector('.swiper-button-next');
+  const prevButton = feedback.querySelector('.swiper-button-prev');
+
+  const  feedbackSwiper = new Swiper(feedbackSwiperContainer, {
+    direction: 'horizontal',
+    loop: true,
+    navigation: {
+      nextEl: nextButton,
+      prevEl: prevButton,
+    },
+    keyboard: {
+      enabled: true,
+    },
+    slidesPerView: 1,
+  });
+  prevButton.ariaLabel = 'Предыдущий слайд.';
+  nextButton.ariaLabel = 'Следующий слайд.';
+
+};
+
+export {initCoachesSwiper, initFeedbackSwiper};
