@@ -2830,6 +2830,19 @@ button.swiper-pagination-bullet {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.video__play-button:hover {
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 0 3px #102654;
+          box-shadow: 0 0 0 3px #102654;
+}
+
+.video__play-button-svg {
+  fill: #ffffff;
+}
+
+.video__play-button:hover .video__play-button-svg {
+  fill: #102654;
+}
 
 .video__screen {
   width: 100%;
