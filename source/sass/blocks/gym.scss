@@ -91,6 +91,8 @@
 }
 
 .gym__text-container {
+  position: relative;
+
   display: flex;
   flex-direction: column;
 
@@ -121,7 +123,13 @@
 .gym__video-container {
   position: absolute;
 
-  left: 30%;
+  background-image: url("../img/jpg/video-background-desktop.jpg");
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  right: -388px;
   top: 50%;
 
   width: 364px;

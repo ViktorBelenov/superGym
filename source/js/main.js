@@ -4,6 +4,7 @@ import {Form} from './modules/form-validate/form';
 import {initTabs} from './init-tabs';
 import {initAccordions} from './init-accordion';
 import {initCoachesSwiper, initFeedbackSwiper} from './init-swiper';
+import './init-video';
 
 // window.addEventListener('DOMContentLoaded', () => {
 //   window.addEventListener('load', () => {
