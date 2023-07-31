@@ -15,14 +15,14 @@
   padding: 85px 78px 80px 78px;
 
   display: grid;
-  grid-template-columns:1fr 2fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: min-content min-content min-content min-content;
 
   column-gap: 10%;
+
   @media (max-width: 1299px) {
     padding: 51px 45px;
   }
-
 }
 
 
@@ -42,11 +42,10 @@
   grid-column: 1/2;
 
   @media (max-width: ($vp-1200 - 1px)) {
-  font-size: 48px;
-  letter-spacing: 1.44px;
-  margin: 0 0 15px 0;
-  line-height: 96%;
-
+    font-size: 48px;
+    letter-spacing: 1.44px;
+    margin: 0 0 15px 0;
+    line-height: 96%;
   }
 }
 
@@ -84,7 +83,6 @@
 
 .super-games__actual-date {
   display: grid;
-  grid-template-columns: min-content min-content;
   grid-template-columns: min-content min-content;
 
   width: min-content;

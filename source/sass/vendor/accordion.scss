@@ -11,8 +11,8 @@
     margin-bottom: 0;
   }
 
-  &__element {
-  }
+  // &__element {
+  // }
 
   &__element.is-active > &__button {
     &::after {
@@ -24,8 +24,7 @@
       width: 42px;
       height: 42px;
 
-      background-image: url('../img/svg/close.svg');
-
+      background-image: url("../img/svg/close.svg");
     }
   }
 
@@ -60,8 +59,7 @@
       width: 42px;
       height: 42px;
 
-      background-image: url('../img/svg/open.svg');
-
+      background-image: url("../img/svg/open.svg");
     }
   }
 
@@ -70,11 +68,11 @@
   }
 
   &__content {
-    border-bottom: 1px solid rgba(28, 51, 116, 0.20);
+    border-bottom: 1px solid rgba(28, 51, 116, 0.2);
   }
 
   &__button--first {
-    border-top: 1px solid rgba(28, 51, 116, 0.20);
+    border-top: 1px solid rgba(28, 51, 116, 0.2);
   }
 
   &__text {

@@ -26,7 +26,7 @@
   top: 62%;
 
   &::after {
-    background-image: url('../img/svg/arrow-left.svg');
+    background-image: url("../img/svg/arrow-left.svg");
     background-repeat: no-repeat;
 
     content: "";
@@ -37,7 +37,7 @@
 
 .coaches__slide-button--right {
   &::after {
-    background-image: url('../img/svg/arrow-right.svg');
+    background-image: url("../img/svg/arrow-right.svg");
     background-repeat: no-repeat;
 
     content: "";

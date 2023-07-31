@@ -52,7 +52,7 @@ const initFeedbackSwiper = () => {
   const nextButton = feedback.querySelector('.swiper-button-next');
   const prevButton = feedback.querySelector('.swiper-button-prev');
 
-  const  feedbackSwiper = new Swiper(feedbackSwiperContainer, {
+  const feedbackSwiper = new Swiper(feedbackSwiperContainer, {
     direction: 'horizontal',
     loop: true,
     navigation: {

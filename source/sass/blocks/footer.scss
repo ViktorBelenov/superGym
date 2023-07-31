@@ -24,13 +24,13 @@
 
   @media (max-width: ($vp-1200 - 1px)) {
     column-gap: 30px;
+  }
 
-}
-  @media (max-width: ($vp-768 - 1px))  {
+  @media (max-width: ($vp-768 - 1px)) {
     grid-template-columns: repeat(2, min-content);
   }
 
-  @media (max-width: (400px))  {
+  @media (max-width: (400px)) {
     margin-bottom: 40px;
   }
 }
@@ -48,9 +48,8 @@
   &:first-child {
     margin-right: 200px;
 
-      @media (max-width: ($vp-1200 - 1px)) {
-        margin-right: 100px;
-
+    @media (max-width: ($vp-1200 - 1px)) {
+      margin-right: 100px;
     }
   }
 }

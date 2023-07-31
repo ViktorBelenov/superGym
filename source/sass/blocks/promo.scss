@@ -18,7 +18,6 @@
 
     flex-direction: column;
   }
-
 }
 
 .promo__wrapper {
@@ -112,8 +111,8 @@
 }
 
 .promo__about--second {
-  color: #1C3374;
-  border-bottom: 1px solid #1C3374;
+  color: #1c3374;
+  border-bottom: 1px solid #1c3374;
 }
 
 .promo__second-offer {
@@ -128,7 +127,7 @@
 
 
 .promo__second-offer-title {
-  color: #1C3374;
+  color: #1c3374;
   font-family: $ff-roboto;
   font-size: 26px;
   font-style: normal;
@@ -143,7 +142,7 @@
 }
 
 .promo__second-offer-description {
-  color: #1C3374;
+  color: #1c3374;
   font-family: $ff-roboto;
   font-size: 16px;
   font-style: normal;
@@ -176,6 +175,7 @@
     grid-column: 1/2;
   }
 }
+
 .promo__second-offer-second {
   grid-column: 2/3;
   grid-row: 2/3;

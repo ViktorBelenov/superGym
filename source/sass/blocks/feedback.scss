@@ -18,22 +18,21 @@
 .feedback__slide {
   margin: 0 auto;
   width: 560px;
-  background-color: #1C3374;
+  background-color: #1c3374;
   padding: 62px;
 
   display: flex;
   align-items: flex-start;
 
-  @media (max-width:($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     width: 566px;
   }
 
-  @media (max-width:($vp-768 - 1px)) {
+  @media (max-width: ($vp-768 - 1px)) {
     width: 226px;
     padding: 25px 40px;
     flex-direction: column;
   }
-
 }
 
 .feedback__slide-img {
@@ -66,7 +65,7 @@
 
 
   &::after {
-    background-image: url('../img/svg/arrow-left.svg');
+    background-image: url("../img/svg/arrow-left.svg");
     background-repeat: no-repeat;
 
     content: "";
@@ -78,11 +77,11 @@
 .feedback__slide-button--left {
   left: 20%;
 
-  @media (max-width:($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     left: 45px;
   }
 
-  @media (max-width:($vp-768 - 1px)) {
+  @media (max-width: ($vp-768 - 1px)) {
     left: 15px;
   }
 }
@@ -92,7 +91,7 @@
   right: 20%;
 
   &::after {
-    background-image: url('../img/svg/arrow-right.svg');
+    background-image: url("../img/svg/arrow-right.svg");
     background-repeat: no-repeat;
 
     content: "";
@@ -100,11 +99,11 @@
     height: 100%;
   }
 
-  @media (max-width:($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     right: 45px;
   }
 
-  @media (max-width:($vp-768 - 1px)) {
+  @media (max-width: ($vp-768 - 1px)) {
     right: 15px;
   }
 }

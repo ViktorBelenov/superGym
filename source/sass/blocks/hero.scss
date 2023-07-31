@@ -59,6 +59,10 @@
 
   align-self: flex-end;
   text-align: right;
+
+  @media (max-width: ($vp-768 - 1px)) {
+    padding-top: 90px;
+  }
 }
 
 .hero__advantages-item {
@@ -94,7 +98,6 @@
   @media (max-width: ($vp-768 - 1px)) {
     font-size: 28px;
     letter-spacing: 0.84px;
-
   }
 }
 
@@ -128,7 +131,7 @@
 
   @media (max-width: ($vp-768 - 1px)) {
     position: absolute;
-    right: 20px;
+    right: 10px;
   }
 }
 

@@ -20,7 +20,7 @@
 
   text-align: center;
 
-  @media (max-width:  ($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     width: 268px;
     height: 294px;
   }
@@ -51,9 +51,7 @@
   width: 260px;
   height: 294px;
 
-
-
-  @media (max-width:  ($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     width: 268px;
     height: 294px;
   }

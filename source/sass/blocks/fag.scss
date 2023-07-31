@@ -11,13 +11,13 @@
   grid-template-columns: 1fr;
   grid-template-rows: min-content min-content min-content min-content;
 
-  @media (max-width:($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: min-content;
     column-gap: 10px;
   }
 
-  @media (max-width:($vp-768 - 1px)) {
+  @media (max-width: ($vp-768 - 1px)) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: min-content min-content;
     column-gap: 10px;
@@ -35,46 +35,44 @@
 
   padding: 18px;
 
-  border: 1px solid rgba(16, 38, 84, 0.20);
+  border: 1px solid rgba(16, 38, 84, 0.2);
   margin-bottom: 10px;
 
-
-
-  @media (max-width:($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     flex-grow: 1;
     margin-right: 10px;
     margin-bottom: 40px;
 
-      &:last-child{
-        margin-right: 0;
-      }
+    &:last-child {
+      margin-right: 0;
     }
-
-    @media (max-width:($vp-768 - 1px)) {
-      flex-grow: 1;
-      margin-right: 8px;
-      margin-bottom: 8px;
-      padding: 14px;
-
-        &:nth-child(2n){
-          margin-right: 0;
-        }
-      }
   }
+
+  @media (max-width: ($vp-768 - 1px)) {
+    flex-grow: 1;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 14px;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+}
 
 .fag__tabs {
   display: grid;
   grid-template-columns: 13fr 43fr;
   column-gap: 40px;
 
-  @media (max-width:($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     grid-template-columns: 1fr;
   }
 }
 
 
-.fag__control  + .is-active {
-  background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
+.fag__controls .is-active {
+  background: linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
   color: $color-default-white;
   border-color: inherit;
 }

@@ -1,11 +1,11 @@
 .contact__wrapper {
   padding: 56px 0 56px 120px;
 
-  @media (max-width:($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     padding: 70px 0 70px 130px;
   }
 
-  @media (max-width:($vp-768 - 1px)) {
+  @media (max-width: ($vp-768 - 1px)) {
     padding: 70px 4.68%;
   }
 }
@@ -21,12 +21,12 @@
 
   margin: 0 0 43px 0;
 
-  @media (max-width:($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     font-size: 42px;
     letter-spacing: 1.26px;
   }
 
-  @media (max-width:($vp-768 - 1px)) {
+  @media (max-width: ($vp-768 - 1px)) {
     margin: 0 0 50px 0;
     font-size: 32px;
     letter-spacing: 0.96px;
@@ -42,34 +42,32 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 
-  @media (max-width:($vp-768 - 1px)) {
+  @media (max-width: ($vp-768 - 1px)) {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
 
     row-gap: 35px;
   }
-
 }
 
 .contact__item {
   padding: 15px 60px 15px 0;
-  border-right: 1px solid #74819C;
+  border-right: 1px solid #74819c;
   box-sizing: border-box;
 
   &:nth-child(even) {
     padding: 15px 0 15px 60px;
     border-right: 0;
 
-    @media (max-width:($vp-768 - 1px)) {
+    @media (max-width: ($vp-768 - 1px)) {
       padding: 0;
     }
   }
 
-  @media (max-width:($vp-768 - 1px)) {
+  @media (max-width: ($vp-768 - 1px)) {
     padding: 0;
     border-right: 0;
   }
-
 }
 
 .contact__item-title {
@@ -82,7 +80,7 @@
 
   margin: 0 0 15px 0;
 
-  @media (max-width:($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     font-size: 20px;
     margin: 0 0 20px 0;
   }
@@ -94,9 +92,9 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 152.344%;
+  line-height: 152.34%;
 
-  @media (max-width:($vp-1200 - 1px)) {
+  @media (max-width: ($vp-1200 - 1px)) {
     font-size: 18px;
   }
 }
