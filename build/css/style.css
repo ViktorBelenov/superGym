@@ -2831,7 +2831,8 @@ button.swiper-pagination-bullet {
           justify-content: center;
 }
 .video__play-button:hover {
-  background: #ffffff;
+  background: linear-gradient(83deg, #ffffff 0%, #ffffff 88.54%);
+  border: solid 14px rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 3px #102654;
           box-shadow: 0 0 0 3px #102654;
 }

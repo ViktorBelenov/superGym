@@ -15,7 +15,8 @@
   justify-content: center;
 
   &:hover {
-    background: $color-default-white;
+    background: linear-gradient(83deg, $color-default-white 0%, $color-default-white 88.54%);
+    border: solid 14px rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 3px $sapphire;
   }
 }
