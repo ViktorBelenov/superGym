@@ -3281,13 +3281,13 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 1199px) {
-  .super-game__img {
+  .super-games__img {
     width: 386px;
     height: 292px;
   }
 }
 @media (max-width: 767px) {
-  .super-game__img {
+  .super-games__img {
     width: 100%;
     height: auto;
   }

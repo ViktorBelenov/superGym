@@ -7,12 +7,17 @@
     <meta name="description" content="Описание проекта">
     <title>Super Gym</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preload" href="fonts/alumni-sans/alumnisans-extrabold.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/alumni-sans/alumnisans-semibold.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/roboto-condensed/robotocondensed-light.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/roboto-condensed/robotocondensed-bold.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/roboto-condensed/robotocondensed-regular.woff2" as="font" crossorigin="anonymous">
   </head>
   <body>
     <section class="hero">
       <div class="hero__wrapper">
         <header class="header hero__header-block">
-          <a class="logo">
+          <a class="logo" href="#">
             <svg class="logo__img"  width="120" height="23">
               <use xlink:href="img/sprite.svg#logotype"></use>
             </svg>
@@ -27,7 +32,7 @@
           </ul>
           <span class="hero__city">Омск</span>
           <h1 class="hero__header">Фитнес центр</h1>
-          <a class="hero__buy">Купить абонемент</a>
+          <a class="hero__buy" href="#buy">Купить абонемент</a>
         </div>
         <picture class="hero__img">
           <source type="image/webp"  media="(max-width: 1199px)" srcset="img/jpg/hero-tablet.webp, img/jpg/hero-tablet@2x.webp 2x">
@@ -67,8 +72,7 @@
           </div>
         </div>
       </section>
-      <section class="membership">
-
+      <section class="membership" id="buy">
         <div class="membership__wrapper">
           <h2 class="membership__title">Абонементы</h2>
             <div class="tabs no-transition-global" data-tabs="parent" data-delay="300">
@@ -84,19 +88,19 @@
                       <h3 class="membership__card-title">С тренером</h3>
                       <span class="membership__card-offer">12 занятий</span>
                       <span class="membership__card-price" data-price="5000">5000 <span class="membership__card-price-rub">₽</span></span>
-                      <a class="membership__buy-button">купить абонемент</a>
+                      <a class="membership__buy-button" href="#">купить абонемент</a>
                     </li>
                     <li class="membership__card-item">
                       <h3 class="membership__card-title">Дневной</h3>
                       <span class="membership__card-offer">с 8:00 до 17:00</span>
                       <span class="membership__card-price" data-price="1700">1700 <span class="membership__card-price-rub">₽</span></span>
-                      <a class="membership__buy-button">купить абонемент</a>
+                      <a class="membership__buy-button" href="#">купить абонемент</a>
                     </li>
                     <li class="membership__card-item">
                       <h3 class="membership__card-title">Полный день</h3>
                       <span class="membership__card-offer">с 8:00 до 22:00</span>
                       <span class="membership__card-price" data-price="2700">2700 <span class="membership__card-price-rub">₽</span></span>
-                      <a class="membership__buy-button">купить абонемент</a>
+                      <a class="membership__buy-button" href="#">купить абонемент</a>
                     </li>
                   </ul>
                 </div>
@@ -106,19 +110,19 @@
                       <h3 class="membership__card-title">С тренером</h3>
                       <span class="membership__card-offer">12 занятий</span>
                       <span class="membership__card-price" data-price="5000">5000 <span class="membership__card-price-rub">₽</span></span>
-                      <a class="membership__buy-button">купить абонемент</a>
+                      <a class="membership__buy-button" href="#">купить абонемент</a>
                     </li>
                     <li class="membership__card-item">
                       <h3 class="membership__card-title">Дневной</h3>
                       <span class="membership__card-offer">с 8:00 до 17:00</span>
                       <span class="membership__card-price" data-price="1700">1700 <span class="membership__card-price-rub">₽</span></span>
-                      <a class="membership__buy-button">купить абонемент</a>
+                      <a class="membership__buy-button" href="#">купить абонемент</a>
                     </li>
                     <li class="membership__card-item">
                       <h3 class="membership__card-title">Полный день</h3>
                       <span class="membership__card-offer">с 8:00 до 22:00</span>
                       <span class="membership__card-price" data-price="2700">2700 <span class="membership__card-price-rub">₽</span></span>
-                      <a class="membership__buy-button">купить абонемент</a>
+                      <a class="membership__buy-button" href="#">купить абонемент</a>
                     </li>
                   </ul>
                 </div>
@@ -128,19 +132,19 @@
                       <h3 class="membership__card-title">С тренером</h3>
                       <span class="membership__card-offer">12 занятий</span>
                       <span class="membership__card-price" data-price="5000">5000 <span class="membership__card-price-rub">₽</span></span>
-                      <a class="membership__buy-button">купить абонемент</a>
+                      <a class="membership__buy-button" href="#">купить абонемент</a>
                     </li>
                     <li class="membership__card-item">
                       <h3 class="membership__card-title">Дневной</h3>
                       <span class="membership__card-offer">с 8:00 до 17:00</span>
                       <span class="membership__card-price" data-price="1700">1700 <span class="membership__card-price-rub">₽</span></span>
-                      <a class="membership__buy-button">купить абонемент</a>
+                      <a class="membership__buy-button" href="#">купить абонемент</a>
                     </li>
                     <li class="membership__card-item">
                       <h3 class="membership__card-title">Полный день</h3>
                       <span class="membership__card-offer">с 8:00 до 22:00</span>
                       <span class="membership__card-price" data-price="2700">2700 <span class="membership__card-price-rub">₽</span></span>
-                      <a class="membership__buy-button">купить абонемент</a>
+                      <a class="membership__buy-button" href="#">купить абонемент</a>
                     </li>
                   </ul>
                 </div>
@@ -168,15 +172,15 @@
               </div>
             </div>
 
-            <a class="super-games__button">заполнить заявку</a>
+            <a class="super-games__button" href="#">заполнить заявку</a>
           </div>
-          <picture class="super-game__img">
+          <picture class="super-games__img">
             <source type="image/webp"  media="(max-width: 767px)" srcset="img/jpg/super-games-mobile.webp, img/jpg/super-games-mobile@2x.webp 2x">
             <source type="image/webp"  media="(max-width: 1199px)" srcset="img/jpg/super-games-tablet.webp, img/jpg/super-games-tablet@2x.webp 2x">
             <source type="image/webp" srcset="img/jpg/super-games-desktop.webp, img/jpg/super-games-desktop@2x.webp 2x">
             <source media="(max-width: 767px)" srcset="img/jpg/super-games-mobile.jpg, img/jpg/super-games-mobile@2x.jpg 2x">
             <source media="(max-width: 1199px)" srcset="img/jpg/super-games-tablet.jpg, img/jpg/super-games-tablet@2x.jpg 2x">
-            <img class="super-game__img" src="img/jpg/super-games-desktop.jpg" srcset="img/jpg/super-games-desktop@2x.jpg 2x" alt="Зал с тренажорами" width= "660" height= "500">
+            <img class="super-games__img" src="img/jpg/super-games-desktop.jpg" srcset="img/jpg/super-games-desktop@2x.jpg 2x" alt="Зал с тренажорами" width= "660" height= "500">
           </picture>
         </div>
       </section>
@@ -406,7 +410,7 @@
                 <h3 class="promo__year-text-conatainer-title">Год</h3>
                 <span class="promo__year-text-conatainer-price">4999</span>
                 <span class="promo__year-text-conatainer-describe">Безлимитный абонемент в тренажерный зал</span>
-                <a class="promo__about"> Подробнее</a>
+                <a class="promo__about" href="#"> Подробнее</a>
               </div>
               <picture class="promo__year-img">
                 <source type="image/webp"  media="(max-width: 767px)" srcset="img/jpg/promo-mobile.webp, img/jpg/promo-mobile@2x.webp 2x">
@@ -420,20 +424,21 @@
             <div class="promo__second-offer promo__second-offer-first">
               <h3 class="promo__second-offer-title">Месяц бесплатно</h3>
               <span class="promo__second-offer-description">Приведи друга, получи абонемент в подарок</span>
-              <a class="promo__about promo__about--second">Подробнее</a>
+              <a class="promo__about promo__about--second" href="#">Подробнее</a>
             </div>
             <div class="promo__second-offer promo__second-offer-second">
               <h3 class="promo__second-offer-title">Скидка 20%</h3>
               <span class="promo__second-offer-description">Корпоративный фитнес  с командой</span>
-              <a class="promo__about promo__about--second">Подробнее</a>
+              <a class="promo__about promo__about--second" href="#">Подробнее</a>
             </div>
           </div>
         </div>
       </section>
 
       <section class="fag">
+        <h2 class="visually-hidden">Вопросы</h2>
         <div class="fag__wrapper">
-            <div class="fag__tabs no-transition-global" data-tabs="parent" data-delay="300">
+            <div class="fag__tabs no-transition-global tabs" data-tabs="parent" data-delay="300">
               <div class="fag__controls" data-tabs="controls">
                 <button class="fag__control" type="button" data-tabs="control">Центр</button>
                 <button class="fag__control  is-active" type="button" data-tabs="control">Абонимент</button>
@@ -447,7 +452,7 @@
                       <button class="accordion__button accordion__button--first" type="button" data-accordion="button">Как стать членом фитнес-центра?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">При первом посещении и покупке абонемента, необходимо заполнить анкету и подписать договор. При покупке абонемента онлайн, анкета также заполняется онлайн и договор придет вам на почту.</p>
+                          <span class="accordion__text">При первом посещении и покупке абонемента, необходимо заполнить анкету и подписать договор. При покупке абонемента онлайн, анкета также заполняется онлайн и договор придет вам на почту.</span>
                         </div>
                       </div>
                     </div>
@@ -455,7 +460,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Где можно посмотреть расписание?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -463,7 +468,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Есть кулеры в центре? Предоставляются полотенца?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -471,7 +476,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Сколько тренеров работает в клубе и какова их квалификация?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -483,7 +488,7 @@
                       <button class="accordion__button accordion__button--first" type="button" data-accordion="button">Занятия с тренером входят в абонемент?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">При посещении тренажерного зала вам необходимо оплачить занятия с тренером отдельно. В зале всегда присутствует дежурный тренер, которому можно задать вопрос,  получить небольшую консультацию по тренажеру или технике выполнения упражнения.</p>
+                          <span class="accordion__text">При посещении тренажерного зала вам необходимо оплачить занятия с тренером отдельно. В зале всегда присутствует дежурный тренер, которому можно задать вопрос,  получить небольшую консультацию по тренажеру или технике выполнения упражнения.</span>
                         </div>
                       </div>
                     </div>
@@ -491,7 +496,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Можно ли заморозить абонемент?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -499,7 +504,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Есть ли лимит по посещениям тренажерного зала и групповых занятий?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -507,7 +512,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Что такое семейный доступ и доступ для друзей?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -521,7 +526,7 @@
                         по вопросам питания?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Да. Вы можете обратиться как к своему тренеру, так и к нашему нутрициологу. Специалист уточнит ваши данные, цели и предложит программу питания.</p>
+                          <span class="accordion__text">Да. Вы можете обратиться как к своему тренеру, так и к нашему нутрициологу. Специалист уточнит ваши данные, цели и предложит программу питания.</span>
                         </div>
                       </div>
                     </div>
@@ -529,7 +534,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Проводятся ли в клубе какие-либо мероприятия или соревнования?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -537,7 +542,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Можно ли приобрести в центре спортивное питание?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -545,7 +550,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Есть ли в центре детская комната?</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -557,7 +562,7 @@
                       <button class="accordion__button accordion__button--first" type="button" data-accordion="button">Правила</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">При посещении тренажерного зала вам необходимо оплачить занятия с тренером отдельно. В зале всегда присутствует дежурный тренер, которому можно задать вопрос,  получить небольшую консультацию по тренажеру или технике выполнения упражнения.</p>
+                          <span class="accordion__text">При посещении тренажерного зала вам необходимо оплачить занятия с тренером отдельно. В зале всегда присутствует дежурный тренер, которому можно задать вопрос,  получить небольшую консультацию по тренажеру или технике выполнения упражнения.</span>
                         </div>
                       </div>
                     </div>
@@ -565,7 +570,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Правила</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -573,7 +578,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Правила</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -581,7 +586,7 @@
                       <button class="accordion__button" type="button" data-accordion="button">Правила</button>
                       <div class="accordion__content" data-accordion="content">
                         <div class="accordion__wrapper">
-                          <p сlass="accordion__text">Нет</p>
+                          <span class="accordion__text">Нет</span>
                         </div>
                       </div>
                     </div>
@@ -598,7 +603,7 @@
             <!-- Slides -->
             <div class="swiper-slide">
               <div class="feedback__slide">
-                <img class="feedback__slide-img" src="img/png/avatar.png" width="80" height="80">
+                <img class="feedback__slide-img" src="img/png/avatar.png" width="80" height="80" alt="Аватар">
                 <div class="feedback__slide-text-container">
                   <h3 class="feedback__slide-title">Анна Орлова</h3>
                   <p class="feedback__slide-description">«Хожу в SuperClub уже больше года. Нравится, что в клубе всегда чисто, тренажеры обновляют, персонал дружелюбный. Зал просторный, даже в вечернее время нет очередей»</p>
@@ -607,7 +612,7 @@
             </div>
             <div class="swiper-slide">
               <div class="feedback__slide">
-                <img class="feedback__slide-img" src="img/png/avatar.png" width="80" height="80">
+                <img class="feedback__slide-img" src="img/png/avatar.png" width="80" height="80" alt="Аватар">
                 <div class="feedback__slide-text-container">
                   <h3 class="feedback__slide-title">Анна Орлова</h3>
                   <p class="feedback__slide-description">«Хожу в SuperClub уже больше года. Нравится, что в клубе всегда чисто, тренажеры обновляют, персонал дружелюбный. Зал просторный, даже в вечернее время нет очередей»</p>
@@ -616,7 +621,7 @@
             </div>
             <div class="swiper-slide">
               <div class="feedback__slide">
-                <img class="feedback__slide-img" src="img/png/avatar.png" width="80" height="80">
+                <img class="feedback__slide-img" src="img/png/avatar.png" width="80" height="80" alt="Аватар">
                 <div class="feedback__slide-text-container">
                   <h3 class="feedback__slide-title">Анна Орлова</h3>
                   <p class="feedback__slide-description">«Хожу в SuperClub уже больше года. Нравится, что в клубе всегда чисто, тренажеры обновляют, персонал дружелюбный. Зал просторный, даже в вечернее время нет очередей»</p>
@@ -633,6 +638,7 @@
 
       </section>
       <section class="appointment-contact">
+        <h2 class="visually-hidden">Запись и контакты</h2>
         <div class="appointment-contact__wrapper">
           <section class="appointment">
             <div class="appointment__wrapper">
@@ -679,26 +685,26 @@
       <div class="footer__wrapper">
         <ul class="footer__nav-list">
           <li class="footer__list-item">
-          <a class="footer__logo logo">
+          <a class="footer__logo logo" href="#">
             <svg class="logo__img"  width="120" height="23">
               <use xlink:href="img/sprite.svg#logotype"></use>
             </svg>
           </a>
           </li>
           <li class="footer__list-item">
-            <a class="footer__list-item-link">Услуги</a>
+            <a class="footer__list-item-link" href="#">Услуги</a>
           </li>
           <li class="footer__list-item">
-            <a class="footer__list-item-link">Абонементы</a>
+            <a class="footer__list-item-link" href="#">Абонементы</a>
           </li>
           <li class="footer__list-item">
-            <a class="footer__list-item-link">Акции</a>
+            <a class="footer__list-item-link" href="#">Акции</a>
           </li>
           <li class="footer__list-item">
-            <a class="footer__list-item-link">Тренеры</a>
+            <a class="footer__list-item-link" href="#">Тренеры</a>
           </li>
           <li class="footer__list-item">
-            <a class="footer__list-item-link">Расписание</a>
+            <a class="footer__list-item-link" href="#">Расписание</a>
           </li>
         </ul>
         <div class="footer__social social">
