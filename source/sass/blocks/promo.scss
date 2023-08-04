@@ -1,5 +1,5 @@
 .promo {
-  padding: 120px 0;
+  padding: 145px 0;
 }
 
 .promo__year {
@@ -52,7 +52,7 @@
 
 .promo__year-text-container {
   background-color: $torch-red;
-  padding: 45px;
+  padding: 35px 45px 45px 45px;
 
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 156%;
-  margin: 0 0 35px 0;
+  margin: 0;
 }
 
 .promo__year-text-conatainer-describe {
@@ -94,7 +94,7 @@
 .promo__about {
   color: $color-default-white;
   font-family: $ff-roboto;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -116,7 +116,7 @@
 }
 
 .promo__second-offer {
-  padding: 35px;
+  padding: 25px 25px 30px;
 
   border: 7px solid $color-default-white;
   border-image: linear-gradient(129deg, #d10a42 0%, #0041ca 100%) 30;
@@ -134,7 +134,7 @@
   font-weight: 700;
 
 
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 
   @media (max-width: ($vp-768 - 1px)) {
     text-align: center;

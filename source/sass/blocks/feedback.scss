@@ -12,14 +12,14 @@
 }
 
 .feedback {
-  padding: 120px 0;
+  padding: 120px 0 127px 0;
 }
 
 .feedback__slide {
   margin: 0 auto;
   width: 560px;
   background-color: #1c3374;
-  padding: 62px;
+  padding: 50px 62px;
 
   display: flex;
   align-items: flex-start;
@@ -47,7 +47,7 @@
   font-weight: 700;
   line-height: 150%;
 
-  margin: 0 0 25px 0;
+  margin: 0 0 12px 0;
 }
 
 .feedback__slide-description {
@@ -75,7 +75,7 @@
 }
 
 .feedback__slide-button--left {
-  left: 20%;
+  left: 25%;
 
   @media (max-width: ($vp-1200 - 1px)) {
     left: 45px;
@@ -88,7 +88,7 @@
 
 
 .feedback__slide-button--right {
-  right: 20%;
+  right: 25%;
 
   &::after {
     background-image: url("../img/svg/arrow-right.svg");

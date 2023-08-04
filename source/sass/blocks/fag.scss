@@ -1,5 +1,18 @@
 .fag {
   background-color: $ghost-white;
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+
+.fag__title {
+  margin: 0 0 43px 0;
+  color: $sapphire;
+  font-family: $ff-alumni;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.62px;
 }
 
 .fag__wrapper {
