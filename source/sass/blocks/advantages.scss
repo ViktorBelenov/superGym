@@ -1,11 +1,12 @@
 .advantages {
   background-color: $ghost-white;
-  padding: 110px 0 120px 0;
+  padding: 65px 0 120px 0;
 }
 
 
 .advantages__wrapper {
   @include wrapper;
+  padding: 0 65px;
 
   @media (max-width: ($vp-768 - 1px)) {
     width: 100%;
@@ -23,6 +24,8 @@
   letter-spacing: 1.62px;
 
   text-align: center;
+
+  margin-bottom: 28px;
 
 
   @media (max-width: ($vp-1200 - 1px)) {
@@ -109,10 +112,12 @@
   font-weight: 700;
   line-height: 150%;
 
-  text-align: center;
+  text-align: left;
+  margin-bottom: 5px;
 
   @media (max-width: ($vp-1200 - 1px)) {
     font-size: 20px;
+    text-align: center;
   }
 }
 
@@ -124,10 +129,14 @@
   font-weight: 300;
   line-height: 140%;
 
-  text-align: center;
+  margin: 0;
+
+  text-align: left;
 }
 
 .advantages__item-special {
+  margin-top: 10px;
+
   background-color: #1c3374;
   padding: 66px 34px;
 

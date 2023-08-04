@@ -3,7 +3,7 @@
   position: relative;
 
   background-color: $ghost-white;
-  padding: 120px 0;
+  padding: 120px 0 200px;
 
   @media (max-width: ($vp-1200 - 1px)) {
     padding: 100px 0;
@@ -45,7 +45,7 @@
   line-height: normal;
   letter-spacing: 1.62px;
 
-  margin: 0 0 25px 0;
+  margin: 0 0 15px 0;
 
   @media (max-width: ($vp-1200 - 1px)) {
     font-size: 42px;
@@ -67,7 +67,7 @@
   display: grid;
   grid-template-rows: min-content;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 2%;
+  column-gap: 4%;
 
   @media (max-width: ($vp-1200 - 1px)) {
     grid-template-columns: 65.2%;
@@ -81,7 +81,7 @@
 
 .membership__card-item {
   background-color: $color-default-white;
-  padding: 68px 70px;
+  padding: 30px 65px 60px;
 
   display: flex;
   flex-direction: column;
@@ -110,6 +110,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 110.16%;
+  margin-bottom: 10px;
 
   @media (max-width: ($vp-768 - 1px)) {
     font-size: 22px;
@@ -123,6 +124,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+
+  margin: 0 0 65px 0;
 }
 
 .membership__card-price {
@@ -163,7 +166,7 @@
     }
   }
 
-  margin-bottom: 60px;
+  margin-bottom: 35px;
 }
 
 .membership__card-price-rub {
@@ -187,7 +190,7 @@
 
   background-color: inherit;
 
-  padding: 28px 44px;
+  padding: 25px 44px;
 
   &:hover {
     background: linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
