@@ -6,7 +6,7 @@
   padding: 120px 0 200px;
 
   @media (max-width: ($vp-1200 - 1px)) {
-    padding: 100px 0;
+    padding: 100px 0 100px 0;
   }
 
   @media (max-width: ($vp-768 - 1px)) {
@@ -56,7 +56,7 @@
     font-size: 32px;
     letter-spacing: 0.96px;
 
-    margin: 0 0 35px 0;
+    margin: 0 0 20px 0;
   }
 }
 
@@ -72,6 +72,7 @@
   @media (max-width: ($vp-1200 - 1px)) {
     grid-template-columns: 65.2%;
     justify-content: center;
+    row-gap: 1%;
   }
 
   @media (max-width: ($vp-768 - 1px)) {
@@ -94,11 +95,11 @@
   }
 
   @media (max-width: 1250px) {
-    padding: 68px 70px;
+    padding: 40px 110px;
   }
 
   @media (max-width: ($vp-768 - 1px)) {
-    padding: 55px 35px;
+    padding: 25px 35px;
   }
 }
 
@@ -126,6 +127,10 @@
   line-height: 150%;
 
   margin: 0 0 65px 0;
+
+  @media (max-width: ($vp-768 - 1px)) {
+    margin: 0 0 50px 0;
+  }
 }
 
 .membership__card-price {
@@ -195,5 +200,6 @@
   &:hover {
     background: linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
     outline: 0;
+    color: $color-default-white;
   }
 }

@@ -17,6 +17,7 @@
   &__element.is-active > &__button {
 
     padding: 30px 30px 15px 0;
+
     &::after {
       content: "";
       position: absolute;
@@ -84,6 +85,5 @@
     font-style: normal;
     font-weight: 300;
     line-height: 140%;
-
   }
 }

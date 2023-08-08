@@ -2,7 +2,7 @@
   padding: 56px 100px 56px 120px;
 
   @media (max-width: ($vp-1200 - 1px)) {
-    padding: 70px 0 70px 130px;
+    padding: 60px 115px 70px 130px;
   }
 
   @media (max-width: ($vp-768 - 1px)) {
@@ -24,6 +24,7 @@
   @media (max-width: ($vp-1200 - 1px)) {
     font-size: 42px;
     letter-spacing: 1.26px;
+    margin: 0 0 20px 0;
   }
 
   @media (max-width: ($vp-768 - 1px)) {
@@ -55,9 +56,13 @@
     position: absolute;
     height: 75%;
     width: 1px;
-    background-color:  #74819c;
+    background-color: #74819c;
     left: 50%;
     top: 20%;
+
+    @media (max-width: ($vp-768 - 1px)) {
+      display: none;
+    }
   }
 }
 
@@ -88,11 +93,11 @@
   font-weight: 700;
   line-height: 150%;
 
-  margin: 0 0 0 0;
+  margin: 0;
 
   @media (max-width: ($vp-1200 - 1px)) {
     font-size: 20px;
-    margin: 0 0 20px 0;
+    margin: 0 0 5px 0;
   }
 }
 

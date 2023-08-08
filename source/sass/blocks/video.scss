@@ -19,10 +19,20 @@
     border: solid 14px rgba(255, 255, 255, 0);
     box-shadow: 0 0 0 3px $sapphire;
   }
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    width: 72px;
+    height: 72px;
+  }
 }
 
 .video__play-button-svg {
   fill: $color-default-white;
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    width: 12px;
+    height: 12px;
+  }
 }
 
 .video__play-button:hover .video__play-button-svg {

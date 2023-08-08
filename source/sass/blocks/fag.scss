@@ -2,6 +2,15 @@
   background-color: $ghost-white;
   padding-top: 90px;
   padding-bottom: 40px;
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+
+  @media (max-width: ($vp-768 - 1px)) {
+    padding-top: 85px;
+  }
 }
 
 .fag__title {
@@ -13,6 +22,16 @@
   font-weight: 600;
   line-height: normal;
   letter-spacing: 1.62px;
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    text-align: center;
+    font-size: 42px;
+  }
+
+  @media (max-width: ($vp-768 - 1px)) {
+    font-size: 32px;
+    margin: 0 0 30px 0;
+  }
 }
 
 .fag__wrapper {

@@ -6,7 +6,7 @@
   padding: 56px 25% 56px 103px;
 
   @media (max-width: ($vp-1200 - 1px)) {
-    padding: 70px 21% 70px 130px;
+    padding: 60px 21% 55px 130px;
   }
 
   @media (max-width: ($vp-768 - 1px)) {
@@ -26,7 +26,7 @@
   margin: 0 0 10px 0;
 
   @media (max-width: ($vp-1200 - 1px)) {
-    margin: 0 0 50px 0;
+    margin: 0 0 28px 0;
     font-size: 42px;
     font-weight: 700;
     line-height: normal;
@@ -46,6 +46,10 @@
   justify-content: space-between;
 
   margin-bottom: 30px;
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    margin-bottom: 25px;
+  }
 }
 
 .appointment__input {

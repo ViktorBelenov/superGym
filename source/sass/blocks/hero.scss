@@ -19,9 +19,12 @@
   @media (max-width: ($vp-1200 - 1px)) {
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;
+    padding-bottom: 95px;
   }
 
   @media (max-width: ($vp-768 - 1px)) {
+    padding-top: 15px;
+    padding-bottom: 70px;
     grid-template-columns: 1fr;
     column-gap: 0;
   }
@@ -60,8 +63,13 @@
   align-self: flex-end;
   text-align: right;
 
+  @media (max-width: ($vp-1200 - 1px)) {
+    margin: 0 20px 50px 0;
+  }
+
   @media (max-width: ($vp-768 - 1px)) {
     padding-top: 90px;
+    margin: 0 0 50px 0;
   }
 }
 
@@ -91,6 +99,7 @@
   @media (max-width: ($vp-1200 - 1px)) {
     font-size: 34px;
     letter-spacing: 1.02px;
+    margin: 75px 55px 0 0;
 
     margin-right: 0;
   }
@@ -126,7 +135,7 @@
     font-size: 72px;
     letter-spacing: 3.6px;
 
-    margin: 15px 0 50px 0;
+    margin: 15px 0 30px 0;
   }
 
   @media (max-width: ($vp-768 - 1px)) {
@@ -177,7 +186,7 @@
   top: -10px;
 
   @media (max-width: (1340px)) {
-    top: 0;
+    top: 6px;
   }
 
   @media (max-width: ($vp-768 - 1px)) {
