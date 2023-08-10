@@ -3705,8 +3705,7 @@ button.swiper-pagination-bullet {
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#d10a42), to(#0041ca));
-  background: linear-gradient(#d10a42, #0041ca);
+  background: linear-gradient(127.61deg, #d10a42 0, #0041ca 87.33%);
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
