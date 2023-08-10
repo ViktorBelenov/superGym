@@ -14,7 +14,7 @@
 }
 
 .video__play-button:hover .video__play-button-svg-circle-second {
- fill: $color-default-white;
+  fill: $color-default-white;
 }
 
 .video__play-button:hover .video__play-button-svg-triangle {
@@ -26,7 +26,7 @@
 }
 
 .video__play-button:active .video__play-button-svg-circle-second {
- fill: $color-default-white;
+  fill: $color-default-white;
 }
 
 .video__play-button:active .video__play-button-svg-triangle {
@@ -38,7 +38,7 @@
 }
 
 .video__play-button:focus .video__play-button-svg-circle-second {
- fill: $color-default-white;
+  fill: $color-default-white;
 }
 
 .video__play-button:focus .video__play-button-svg-triangle {
@@ -49,15 +49,15 @@
   opacity: 0.4;
 }
 
-.video__play-button:disabled  .video__play-button-svg-circle-first {
+.video__play-button:disabled .video__play-button-svg-circle-first {
   stroke: $sapphire;
 }
 
-.video__play-button:disabled  .video__play-button-svg-circle-second {
- fill: $color-default-white;
+.video__play-button:disabled .video__play-button-svg-circle-second {
+  fill: $color-default-white;
 }
 
-.video__play-button:disabled  .video__play-button-svg-triangle {
+.video__play-button:disabled .video__play-button-svg-triangle {
   fill: $sapphire;
 }
 
