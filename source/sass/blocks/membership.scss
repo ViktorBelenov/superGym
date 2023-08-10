@@ -3,7 +3,8 @@
   position: relative;
 
   background-color: $ghost-white;
-  padding: 120px 0 200px;
+  padding: 120px 0 80px;
+  border-bottom: 120px solid $color-default-white;
 
   @media (max-width: ($vp-1200 - 1px)) {
     padding: 100px 0 100px 0;
@@ -17,12 +18,12 @@
     content: "";
     background-image: url("../img/png/plate.png");
     width: 289px;
-    height: 345px;
+    height: 420px;
 
     position: absolute;
 
     right: 0;
-    bottom: 0;
+    bottom: -75px;
 
     @media (max-width: ($vp-768 - 1px)) {
       display: none;
@@ -92,10 +93,6 @@
   &:hover {
 
     border-image: linear-gradient(129deg, #d10a42 0%, #0041ca 100%) 30;
-  }
-
-  @media (max-width: 1250px) {
-    padding: 40px 110px;
   }
 
   @media (max-width: ($vp-768 - 1px)) {
