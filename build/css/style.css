@@ -3190,6 +3190,17 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1299px) {
   .super-games__text-container {
+    padding: 30px 15px;
+    -webkit-column-gap: 5%;
+       -moz-column-gap: 5%;
+            column-gap: 5%;
+  }
+}
+@media (max-width: 1199px) {
+  .super-games__text-container {
+    -webkit-column-gap: 18%;
+       -moz-column-gap: 18%;
+            column-gap: 18%;
     padding: 51px 45px;
   }
 }

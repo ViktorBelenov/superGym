@@ -31,8 +31,15 @@
 
   column-gap: 18%;
 
+
   @media (max-width: 1299px) {
-    padding: 51px 45px;
+    padding: 30px 15px;
+    column-gap: 5%;
+  }
+
+  @media (max-width:($vp-1200 - 1px)) {
+    column-gap: 18%;
+    padding: 51px 45px ;
   }
 }
 
