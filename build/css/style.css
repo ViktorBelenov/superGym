@@ -1487,6 +1487,7 @@ button.swiper-pagination-bullet {
   bottom: -13px;
   background-color: #e4e4e4;
 }
+
 .tabs__control {
   font-size: 20px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
@@ -2258,7 +2259,7 @@ button.swiper-pagination-bullet {
 }
 
 .hero {
-  background: conic-gradient(from 151deg at 16.03% 39.06%, #003d85 32.24deg, #d80027 313.31deg);
+  background: conic-gradient(from 150.87deg at 16.03% 39.06%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
   background-color: #000000;
 }
 
@@ -3410,7 +3411,6 @@ button.swiper-pagination-bullet {
   letter-spacing: 1.26px;
   text-align: left;
   margin: 0 0 48px 0;
-  font-size: 32px;
 }
 @media (max-width: 1199px) {
   .coaches__title {
