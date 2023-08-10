@@ -2831,14 +2831,6 @@ button.swiper-pagination-bullet {
 .video__play-button {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: solid 14px rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 3px rgba(184, 0, 39, 0.6);
-          box-shadow: 0 0 0 3px rgba(184, 0, 39, 0.6);
-  background: linear-gradient(83deg, #003d85 0%, #b80027 88.54%);
-  background-clip: padding-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2848,32 +2840,67 @@ button.swiper-pagination-bullet {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-.video__play-button:hover {
-  background: linear-gradient(83deg, #ffffff 0%, #ffffff 88.54%);
-  border: solid 14px rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 3px #102654;
-          box-shadow: 0 0 0 3px #102654;
-}
-@media (max-width: 1199px) {
-  .video__play-button {
-    width: 72px;
-    height: 72px;
-  }
+  border: 0;
+  background-color: transparent;
 }
 
-.video__play-button-svg {
+.video__play-button:hover .video__play-button-svg-circle-first {
+  stroke: #102654;
+}
+
+.video__play-button:hover .video__play-button-svg-circle-second {
   fill: #ffffff;
 }
-@media (max-width: 1199px) {
-  .video__play-button-svg {
-    width: 12px;
-    height: 12px;
-  }
+
+.video__play-button:hover .video__play-button-svg-triangle {
+  fill: #102654;
 }
 
-.video__play-button:hover .video__play-button-svg {
+.video__play-button:active .video__play-button-svg-circle-first {
+  stroke: #102654;
+}
+
+.video__play-button:active .video__play-button-svg-circle-second {
+  fill: #ffffff;
+}
+
+.video__play-button:active .video__play-button-svg-triangle {
   fill: #102654;
+}
+
+.video__play-button:focus .video__play-button-svg-circle-first {
+  stroke: #102654;
+}
+
+.video__play-button:focus .video__play-button-svg-circle-second {
+  fill: #ffffff;
+}
+
+.video__play-button:focus .video__play-button-svg-triangle {
+  fill: #102654;
+}
+
+.video__play-button:disabled {
+  opacity: 0.4;
+}
+
+.video__play-button:disabled .video__play-button-svg-circle-first {
+  stroke: #102654;
+}
+
+.video__play-button:disabled .video__play-button-svg-circle-second {
+  fill: #ffffff;
+}
+
+.video__play-button:disabled .video__play-button-svg-triangle {
+  fill: #102654;
+}
+
+@media (max-width: 1199px) {
+  .video__play-button-svg {
+    width: 73px;
+    height: 73px;
+  }
 }
 
 .video__screen {
