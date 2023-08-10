@@ -25,7 +25,7 @@ const initCoachesSwiper = () => {
         spaceBetween: 40,
         allowTouchMove: false,
       },
-      1000: {
+      1100: {
         slidesPerView: 3,
         spaceBetween: 40,
         allowTouchMove: false,
