@@ -4544,7 +4544,7 @@ button.swiper-pagination-bullet {
   }
 }
 
-.appointment__input {
+.appointment__name-phone-container input {
   width: 37.5%;
   background-color: inherit;
   color: #ffffff;
@@ -4558,11 +4558,11 @@ button.swiper-pagination-bullet {
   border-bottom: 1px solid #74819c;
 }
 @media (max-width: 1199px) {
-  .appointment__input {
+  .appointment__name-phone-container input {
     width: 43%;
   }
 }
-.appointment__input::-webkit-input-placeholder {
+.appointment__name-phone-container input::-webkit-input-placeholder {
   color: #ffffff;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 14px;
@@ -4570,7 +4570,7 @@ button.swiper-pagination-bullet {
   font-weight: 400;
   line-height: normal;
 }
-.appointment__input::-moz-placeholder {
+.appointment__name-phone-container input::-moz-placeholder {
   color: #ffffff;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 14px;
@@ -4578,7 +4578,7 @@ button.swiper-pagination-bullet {
   font-weight: 400;
   line-height: normal;
 }
-.appointment__input:-ms-input-placeholder {
+.appointment__name-phone-container input:-ms-input-placeholder {
   color: #ffffff;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 14px;
@@ -4586,7 +4586,7 @@ button.swiper-pagination-bullet {
   font-weight: 400;
   line-height: normal;
 }
-.appointment__input::-ms-input-placeholder {
+.appointment__name-phone-container input::-ms-input-placeholder {
   color: #ffffff;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 14px;
@@ -4594,7 +4594,7 @@ button.swiper-pagination-bullet {
   font-weight: 400;
   line-height: normal;
 }
-.appointment__input::placeholder {
+.appointment__name-phone-container input::placeholder {
   color: #ffffff;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 14px;

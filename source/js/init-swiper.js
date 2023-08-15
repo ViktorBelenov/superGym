@@ -53,6 +53,7 @@ const initFeedbackSwiper = () => {
   const prevButton = feedback.querySelector('.swiper-button-prev');
 
   const feedbackSwiper = new Swiper(feedbackSwiperContainer, {
+    autoHeight: 'true',
     direction: 'horizontal',
     loop: true,
     navigation: {
