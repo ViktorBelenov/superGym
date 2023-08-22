@@ -23,3 +23,29 @@
 .social__link:hover .social__link-label {
   fill: $color-default-white;
 }
+
+
+.social__link:focus .social__link-circle {
+  fill: #103aae;
+}
+
+
+.social__link:focus .social__link-label {
+  fill: $color-default-white;
+}
+
+.social__link:active .social__link-circle {
+  fill: $sapphire;
+}
+
+.social__link:active .social__link-label {
+  fill: $color-default-white;
+}
+
+.social__link:disabled .social__link-label {
+  fill: #030A1A;
+}
+
+.social__link:disabled .social__link-circle {
+  opacity: 0.3;
+}

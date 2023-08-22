@@ -42,6 +42,18 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  &:hover {
+    border-bottom: 1px solid $color-default-white;
+  }
+
+  &:focus{
+    outline: 1px solid $color-default-white;
+  }
+
+  &:disabled{
+    opacity: 0.4;
+  }
 }
 
 .footer__list-item {

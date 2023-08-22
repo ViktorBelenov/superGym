@@ -2111,6 +2111,15 @@ button.swiper-pagination-bullet {
   font-weight: 400;
   line-height: normal;
 }
+.footer__list-item-link:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.footer__list-item-link:focus {
+  outline: 1px solid #ffffff;
+}
+.footer__list-item-link:disabled {
+  opacity: 0.4;
+}
 
 .footer__list-item:first-child {
   margin-right: 240px;
@@ -2144,6 +2153,30 @@ button.swiper-pagination-bullet {
 
 .social__link:hover .social__link-label {
   fill: #ffffff;
+}
+
+.social__link:focus .social__link-circle {
+  fill: #103aae;
+}
+
+.social__link:focus .social__link-label {
+  fill: #ffffff;
+}
+
+.social__link:active .social__link-circle {
+  fill: #102654;
+}
+
+.social__link:active .social__link-label {
+  fill: #ffffff;
+}
+
+.social__link:disabled .social__link-label {
+  fill: #030A1A;
+}
+
+.social__link:disabled .social__link-circle {
+  opacity: 0.3;
 }
 
 .gym__wrapper {
@@ -4210,6 +4243,16 @@ button.swiper-pagination-bullet {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.appointment__name-phone-container input:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.appointment__name-phone-container input:active {
+  outline: 1px solid #ffffff;
+}
+.appointment__name-phone-container input:disabled {
+  outline: 1px solid rgba(255, 255, 255, 0.3);
+  opacity: 0.3;
 }
 
 .appointment__submite {

@@ -78,6 +78,19 @@
     font-weight: 400;
     line-height: normal;
   }
+
+  &:hover {
+    border-bottom: 1px solid $color-default-white;
+  }
+
+  &:active {
+    outline: 1px solid $color-default-white;
+  }
+
+  &:disabled{
+    outline: 1px solid rgba(255, 255, 255, 0.3);
+    opacity: 0.3;
+  }
 }
 
 .appointment__submite {
