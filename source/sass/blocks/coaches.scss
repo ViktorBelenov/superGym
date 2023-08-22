@@ -44,14 +44,39 @@
 
 .coaches__slide-button {
   top: 62%;
+}
 
+.coaches__slide-button--left {
   &::after {
     background-image: url("../img/svg/arrow-left.svg");
     background-repeat: no-repeat;
+    background-position: center;
 
     content: "";
     width: 100%;
     height: 100%;
+  }
+
+  &:hover {
+    border: 1px solid $sapphire;
+    border-radius: 50%;
+  }
+
+  &:focus {
+    border: 1px solid $sapphire;
+    border-radius: 50%;
+  }
+  &:active {
+    background-color: $sapphire;
+    border-radius: 50%;
+
+    &::after {
+      background-image: url("../img/svg/arrow-left-active.svg");
+    }
+  }
+  &:disabled {
+    border: 0;
+    opacity: 0.7;
   }
 }
 
@@ -59,9 +84,30 @@
   &::after {
     background-image: url("../img/svg/arrow-right.svg");
     background-repeat: no-repeat;
+    background-position: center;
 
     content: "";
     width: 100%;
     height: 100%;
   }
+
+  &:hover {
+    border: 1px solid $sapphire;
+    border-radius: 50%;
+  }
+
+  &:active {
+    background-color: $sapphire;
+    border-radius: 50%;
+
+    &::after {
+      background-image: url("../img/svg/arrow-right-active.svg");
+    }
+  }
+
+  &:disabled {
+    border: 0;
+    opacity: 0.7;
+  }
 }
+

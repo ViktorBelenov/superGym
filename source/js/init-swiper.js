@@ -8,6 +8,7 @@ const initCoachesSwiper = () => {
   const prevButton = coaches.querySelector('.swiper-button-prev');
 
 
+  // eslint-disable-next-line no-unused-vars, no-undef
   const coachesSwiper = new Swiper(coachesSwiperContainer, {
     direction: 'horizontal',
     loop: true,
@@ -52,6 +53,7 @@ const initFeedbackSwiper = () => {
   const nextButton = feedback.querySelector('.swiper-button-next');
   const prevButton = feedback.querySelector('.swiper-button-prev');
 
+  // eslint-disable-next-line no-unused-vars, no-undef
   const feedbackSwiper = new Swiper(feedbackSwiperContainer, {
     autoHeight: 'true',
     direction: 'horizontal',

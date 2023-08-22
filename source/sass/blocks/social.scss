@@ -5,7 +5,21 @@
 .social__link {
   margin-left: 11px;
 
+
   &:first-child {
     margin-left: 0;
   }
+}
+
+.social__link-circle {
+  fill: $color-default-white;
+}
+
+.social__link:hover .social__link-circle {
+  fill: #103aae;
+}
+
+
+.social__link:hover .social__link-label {
+  fill: $color-default-white;
 }

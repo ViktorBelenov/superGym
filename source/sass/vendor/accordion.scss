@@ -11,8 +11,6 @@
     margin-bottom: 0;
   }
 
-  // &__element {
-  // }
 
   &__element.is-active > &__button {
 
@@ -28,6 +26,17 @@
       height: 42px;
 
       background-image: url("../img/svg/close.svg");
+    }
+
+    &:hover{
+      &::after {
+        background-image: url("../img/svg/circle-close.svg");
+      }
+    }
+    &:focus {
+      &::after {
+        background-image: url("../img/svg/circle-close.svg");
+      }
     }
   }
 
@@ -63,6 +72,17 @@
       height: 42px;
 
       background-image: url("../img/svg/open.svg");
+    }
+
+    &:hover{
+      &::after {
+        background-image: url("../img/svg/circle-open.svg");
+      }
+    }
+    &:focus {
+      &::after {
+        background-image: url("../img/svg/circle-open.svg");
+      }
     }
   }
 

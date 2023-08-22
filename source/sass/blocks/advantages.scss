@@ -140,7 +140,7 @@
   }
 }
 
-.advantages__item-description {
+.advantages__item-text-container p {
   color: $sapphire;
   font-size: 16px;
   font-family: $ff-roboto;
@@ -216,7 +216,7 @@
   }
 }
 
-.advantages__item-description-special {
+.advantages__item-special p {
   color: $color-default-white;
   text-align: center;
   font-size: 16px;
@@ -241,7 +241,7 @@
   }
 
 
-  &:nth-child(1) {
+  &:nth-of-type(1) {
     border-bottom: 2px solid rgba(209, 10, 66, 0.2);
     padding-bottom: 52px;
     padding-left: 10px;
@@ -253,7 +253,7 @@
     }
   }
 
-  &:nth-child(2) {
+  &:nth-of-type(2) {
     border-bottom: 2px solid rgba(209, 10, 66, 0.2);
     padding-bottom: 52px;
 
@@ -264,7 +264,7 @@
     }
   }
 
-  &:nth-child(4) {
+  &:nth-of-type(4) {
     padding-top: 55px;
     padding-left: 10px;
 
@@ -274,7 +274,7 @@
     }
   }
 
-  &:nth-child(5) {
+  &:nth-of-type(5) {
     padding-top: 55px;
 
     @media (max-width: ($vp-1200 - 1px)) {
