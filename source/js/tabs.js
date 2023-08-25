@@ -22,9 +22,8 @@ export class Tabs {
 
   _documentClickHandler(evt) {
     const target = evt.target;
-    // console.log(target.closest('[data-tabs="control"]').closest('[data-tabs="controls"]').querySelectorAll('[data-tabs="control"]').length);
-    // console.log(target.closest('[data-tabs="control"]').closest('[data-tabs="controls"]').parentNode.querySelectorAll('[data-tabs="element"]').length);
-    if (!target.closest('[data-tabs="control"]') || target.closest('[data-tabs="control"]').closest('[data-tabs="controls"]').querySelectorAll('[data-tabs="control"]').length !== target.closest('[data-tabs="control"]').closest('[data-tabs="controls"]').parentNode.querySelectorAll('[data-tabs="element"]').length) {
+
+    if (!target.closest('[data-tabs="control"]') || target.closest('[data-tabs="controls"]').querySelectorAll('[data-tabs="control"]').length !== target.closest('[data-tabs="parent"]').querySelectorAll('[data-tabs="element"]').length) {
       return;
     }
     evt.preventDefault();
