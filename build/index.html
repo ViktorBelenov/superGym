@@ -362,7 +362,7 @@
         <div class="advantages__wrapper">
           <h2 class="advantages__title">Наши преимущества</h2>
           <ul class="advantages__list">
-            <li class="advantages__item">
+            <li class="advantages__item advantages__item--left ">
               <span class="advantages__item-big-number">
                 900
                 <span class="advantages__item-big-number-description">кв/м</span>
@@ -372,7 +372,7 @@
                 <p>Занимайтесь без очередей<br> и толпучки</p>
               </div>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item advantages__item--left ">
               <span class="advantages__item-big-number">
                 70
                 <span class="advantages__item-big-number-description">машин</span>
@@ -389,7 +389,7 @@
               </h3>
               <p>Современные тренажеры на все группы мышц</p>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item advantages__item--right">
               <span class="advantages__item-big-number">
                 350
                 <span class="advantages__item-big-number-description">мест</span>
@@ -400,7 +400,7 @@
                   душевые, фен, Wi-Fi, кулеры</p>
               </div>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item advantages__item--right">
               <span class="advantages__item-big-number">
                 5+
                 <span class="advantages__item-big-number-description">лет</span>
@@ -654,17 +654,19 @@
           <section class="appointment">
             <div class="appointment__wrapper">
               <h3 class="appointment__title">Бесплатное занятие </h3>
-              <div  data-form-validate="data-form-validate" data-callback="base">
-                <form class="appointment__form" method="post" action="https://echo.htmlacademy.ru/">
+              <div  data-form-validate="data-form-validate">
+                <form class="appointment__form" method="post" action="https://echo.htmlacademy.ru/" autocomplete="off" novalidate>
                   <div class="appointment__name-phone-container">
                     <label class="visually-hidden" for="name">Имя</label>
                     <label class="visually-hidden" for="phone">Номер</label>
-                    <div data-validate-type="text" data-limitation="name" data-message-base="Поле обязательно к заполнению" data-message-extra="Проверьте корректность заполнения поля" data-required>
-                    <input  type="text" id="name" placeholder="Имя">
+                    <div class="appointment__input-container" data-validate-type="text" data-limitation="name" data-message-base="Поле обязательно к заполнению" data-message-extra="Проверьте корректность заполнения поля" data-required="">
+                      <input  type="text" id="name" placeholder="Имя" required="">
                     </div>
-                    <input  type="tel" id="phone" placeholder="Телефон">
+                    <div class="appointment__input-container" data-validate-type="phone" data-message-base="Введите свой телефон" data-phone-length="18" data-message-base="Поле обязательно к заполнению" data-message-extra="Проверьте корректность заполнения поля">
+                      <input  type="tel" id="phone" placeholder="Телефон" pattern="[0-9]{11}" required="">
+                    </div>
                   </div>
-                  <button class="appointment__submite">отправить</button>
+                  <button type="submit" class="appointment__submite">отправить</button>
                 </form>
               </div>
             </div>

@@ -47,11 +47,11 @@
     border-bottom: 1px solid $color-default-white;
   }
 
-  &:focus{
+  &:focus {
     outline: 1px solid $color-default-white;
   }
 
-  &:disabled{
+  &:disabled {
     opacity: 0.4;
   }
 }

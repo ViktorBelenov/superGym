@@ -42,8 +42,9 @@
 }
 
 .appointment__name-phone-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
 
   margin-bottom: 30px;
 
@@ -52,8 +53,12 @@
   }
 }
 
+.appointment__input-container {
+  flex-grow: 1;
+}
+
 .appointment__name-phone-container input {
-  width: 37.5%;
+  width: 100%;
   background-color: inherit;
   color: $color-default-white;
   font-family: $ff-roboto;
@@ -87,7 +92,7 @@
     outline: 1px solid $color-default-white;
   }
 
-  &:disabled{
+  &:disabled {
     outline: 1px solid rgba(255, 255, 255, 0.3);
     opacity: 0.3;
   }

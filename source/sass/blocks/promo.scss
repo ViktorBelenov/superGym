@@ -124,8 +124,8 @@
 
   &:focus {
     box-shadow:
-    0 0 0 10px $torch-red,
-    0 0 0 11px $color-default-white;
+      0 0 0 10px $torch-red,
+      0 0 0 11px $color-default-white;
     border: 0;
   }
 
@@ -144,8 +144,8 @@
 
   &:focus {
     box-shadow:
-    0 0 0 10px $color-default-white,
-    0 0 0 11px #1c3374;
+      0 0 0 10px $color-default-white,
+      0 0 0 11px #1c3374;
     border: 0;
   }
 

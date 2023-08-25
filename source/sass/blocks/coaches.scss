@@ -66,6 +66,7 @@
     border: 1px solid $sapphire;
     border-radius: 50%;
   }
+
   &:active {
     background-color: $sapphire;
     border-radius: 50%;
@@ -74,6 +75,7 @@
       background-image: url("../img/svg/arrow-left-active.svg");
     }
   }
+
   &:disabled {
     border: 0;
     opacity: 0.7;
@@ -110,4 +112,3 @@
     opacity: 0.7;
   }
 }
-

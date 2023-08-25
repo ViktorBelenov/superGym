@@ -28,11 +28,12 @@
       background-image: url("../img/svg/close.svg");
     }
 
-    &:hover{
+    &:hover {
       &::after {
         background-image: url("../img/svg/circle-close.svg");
       }
     }
+
     &:focus {
       &::after {
         background-image: url("../img/svg/circle-close.svg");
@@ -74,11 +75,12 @@
       background-image: url("../img/svg/open.svg");
     }
 
-    &:hover{
+    &:hover {
       &::after {
         background-image: url("../img/svg/circle-open.svg");
       }
     }
+
     &:focus {
       &::after {
         background-image: url("../img/svg/circle-open.svg");
