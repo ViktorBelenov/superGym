@@ -67,7 +67,7 @@
   flex-direction: column;
 }
 
-.promo__year-text-conatainer-title {
+.promo__year-text-container h3 {
   color: $color-default-white;
   font-family: $ff-roboto;
   font-size: 28px;
@@ -78,7 +78,7 @@
   margin: 0;
 }
 
-.promo__year-text-conatainer-price {
+.promo__year-text-container span {
   color: $color-default-white;
   font-family: $ff-roboto;
   font-size: 70px;
@@ -88,7 +88,7 @@
   margin: 0;
 }
 
-.promo__year-text-conatainer-describe {
+.promo__year-text-container p {
   color: $color-default-white;
   font-family: $ff-roboto;
   font-size: 18px;
@@ -100,7 +100,7 @@
 }
 
 
-.promo__about {
+.promo a {
   color: $color-default-white;
   font-family: $ff-roboto;
   font-size: 12px;
@@ -134,7 +134,7 @@
   }
 }
 
-.promo__about--second {
+.promo .promo__about-second {
   color: #1c3374;
   border-bottom: 1px solid #1c3374;
 
@@ -165,7 +165,7 @@
 }
 
 
-.promo__second-offer-title {
+.promo__second-offer h3 {
   color: #1c3374;
   font-family: $ff-roboto;
   font-size: 26px;
@@ -180,7 +180,7 @@
   }
 }
 
-.promo__second-offer-description {
+.promo__second-offer span {
   color: #1c3374;
   font-family: $ff-roboto;
   font-size: 16px;

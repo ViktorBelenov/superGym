@@ -74,7 +74,7 @@
   }
 }
 
-.advantages__item-big-number {
+.advantages__item > span {
   font-size: 71px;
   font-family: $ff-roboto;
   font-style: normal;
@@ -103,7 +103,7 @@
   }
 }
 
-.advantages__item-big-number-description {
+.advantages__item > span > span {
   color: #2e35ac;
   font-size: 14px;
   font-family: $ff-roboto;
@@ -118,7 +118,7 @@
   }
 }
 
-.advantages__item-title {
+.advantages__item-text-container h3 {
   color: $sapphire;
   font-size: 22px;
   font-family: $ff-roboto;
@@ -186,7 +186,7 @@
 }
 
 
-.advantages__item-title-special {
+.advantages__item-special h3 {
   text-align: center;
   margin: 0;
 

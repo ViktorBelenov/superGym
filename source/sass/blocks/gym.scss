@@ -24,7 +24,7 @@
 }
 
 
-.gym__title {
+.gym__text-container h2 {
   color: $sapphire;
   font-size: 48px;
   font-family: $ff-alumni;
@@ -58,7 +58,7 @@
   }
 }
 
-.gym__lead {
+.gym__text-container > span {
   color: $sapphire;
   font-size: 18px;
   font-family: $ff-roboto;

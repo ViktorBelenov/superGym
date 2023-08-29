@@ -59,7 +59,7 @@
   }
 }
 
-.slide__img-name {
+.slide > span {
   position: absolute;
   bottom: 20px;
   left: 30%;
@@ -76,7 +76,7 @@
   }
 }
 
-.slide__header {
+.slide__text-container h3 {
   margin: 0 0 10px 0;
   color: $color-default-white;
   font-size: 18px;
@@ -86,7 +86,7 @@
   line-height: 150%;
 }
 
-.slide__skill {
+.slide__text-container span {
   color: #b6bdcc;
   font-size: 16px;
   font-family: $ff-roboto;
@@ -102,7 +102,7 @@
   padding: 0;
 }
 
-.slide__list-advantages-item {
+.slide__list-advantages li {
   color: $color-default-white;
   font-size: 14px;
   font-family: $ff-roboto;

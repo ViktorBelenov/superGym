@@ -41,7 +41,7 @@
   }
 }
 
-.appointment__name-phone-container {
+.appointment__form > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 30px;
@@ -53,11 +53,7 @@
   }
 }
 
-.appointment__input-container {
-  flex-grow: 1;
-}
-
-.appointment__name-phone-container input {
+.appointment__form input {
   width: 100%;
   background-color: inherit;
   color: $color-default-white;
@@ -98,7 +94,7 @@
   }
 }
 
-.appointment__submite {
+.appointment__form button {
   color: $color-default-white;
   font-family: $ff-roboto;
   font-size: 14px;

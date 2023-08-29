@@ -100,12 +100,21 @@
     border-top: 1px solid rgba(28, 51, 116, 0.2);
   }
 
-  &__text {
-    color: $sapphire;
-    font-family: $ff-roboto;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 140%;
-  }
+  // &__text {
+  //   color: $sapphire;
+  //   font-family: $ff-roboto;
+  //   font-size: 18px;
+  //   font-style: normal;
+  //   font-weight: 300;
+  //   line-height: 140%;
+  // }
+}
+
+.accordion__wrapper span {
+  color: $sapphire;
+  font-family: $ff-roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
 }
