@@ -3043,6 +3043,10 @@ button.swiper-pagination-bullet {
   border: 1px solid #102654;
   border-radius: 50%;
 }
+.coaches__slide-button--right:focus {
+  border: 1px solid #102654;
+  border-radius: 50%;
+}
 .coaches__slide-button--right:active {
   background-color: #102654;
   border-radius: 50%;
@@ -4085,6 +4089,10 @@ button.swiper-pagination-bullet {
   border: 1px solid #102654;
   border-radius: 50%;
 }
+.feedback__slide-button--right:focus {
+  border: 1px solid #102654;
+  border-radius: 50%;
+}
 .feedback__slide-button--right:active {
   background-color: #102654;
   border-radius: 50%;
@@ -4390,6 +4398,20 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1199px) {
   .contact__item span {
+    font-size: 18px;
+  }
+}
+
+.contact__item a {
+  color: #102654;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.34%;
+}
+@media (max-width: 1199px) {
+  .contact__item a {
     font-size: 18px;
   }
 }

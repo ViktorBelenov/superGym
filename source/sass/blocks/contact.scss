@@ -113,3 +113,16 @@
     font-size: 18px;
   }
 }
+
+.contact__item a {
+  color: $sapphire;
+  font-family: $ff-roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.34%;
+
+  @media (max-width: ($vp-1200 - 1px)) {
+    font-size: 18px;
+  }
+}

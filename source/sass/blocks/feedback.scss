@@ -137,6 +137,11 @@
     border-radius: 50%;
   }
 
+  &:focus {
+    border: 1px solid $sapphire;
+    border-radius: 50%;
+  }
+
   &:active {
     background-color: $sapphire;
     border-radius: 50%;
